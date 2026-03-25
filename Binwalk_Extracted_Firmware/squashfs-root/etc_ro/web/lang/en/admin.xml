@@ -1,0 +1,352 @@
+<po>
+  <message msgid="admin apply" msgstr="OK" msgstr_en="OK" />
+  <message msgid="admin cancel" msgstr="Cancel" msgstr_en="Cancel" />
+  <message msgid="admin enable" msgstr="Enable" msgstr_en="Enable" />
+  <message msgid="admin disable" msgstr="Disable" msgstr_en="Disable" />
+  <message msgid="admin reset" msgstr="Cancel" msgstr_en="Cancel" />
+  <message msgid="admin scan" msgstr="Scan" msgstr_en="Scan" />
+  <message msgid="admin add" msgstr="Add" msgstr_en="Add" />
+  <message msgid="admin edit" msgstr="Edit" msgstr_en="Edit" />
+  <message msgid="admin delete" msgstr="Delete" msgstr_en="Delete" />
+
+  <message msgid="parent application" msgstr="Applications" msgstr_en="Applications" />
+  <message msgid="parent diagonostics" msgstr="Diagnostics" msgstr_en="Diagnostics" />
+  <message msgid="parent system maintenance" msgstr="System Maintenance" msgstr_en="System Maintenance" />
+
+  <message msgid="adm title" msgstr="Administration Password" msgstr_en="Administration Password" />
+  <message msgid="admin setting" msgstr="Administrator Settings" msgstr_en="Administrator Settings" />
+  <message msgid="admin account" msgstr="Account" msgstr_en="Account" />
+  <message msgid="admin passwd" msgstr="Password" msgstr_en="Password" />
+
+  <message msgid="admin confirm passwd" msgstr="Confirm Password" msgstr_en="Confirm Password" />
+
+  <message msgid="msg unmatched password" msgstr="The password and confirm password are not matched,please re-enter!" msgstr_en="The password and confirm password are not matched,please re-enter!" />
+
+  <message msgid="man tr069 title" msgstr="TR-069 Settings" msgstr_en="TR-069 Settings"/>
+  <message msgid="man acs setting" msgstr="ACS Settings" msgstr_en="ACS Settings"/>
+  <message msgid="man acs server on" msgstr="ACS Server On" msgstr_en="ACS Server On"/>
+  <message msgid="man acs url" msgstr="URL" msgstr_en="URL"/>
+  <message msgid="man acs username" msgstr="Username" msgstr_en="Username"/>
+  <message msgid="man acs password" msgstr="Password" msgstr_en="Password"/>
+  <message msgid="man cpe setting" msgstr="CPE Settings" msgstr_en="CPE Settings"/>
+  <message msgid="man cpe enable" msgstr="Enable" msgstr_en="Enable"/>
+  <message msgid="man cpe url" msgstr="URL" msgstr_en="URL"/>
+  <message msgid="man cpe port" msgstr="Port" msgstr_en="Port"/>
+  <message msgid="man cpe username" msgstr="Username" msgstr_en="Username"/>
+  <message msgid="man cpe password" msgstr="Password" msgstr_en="Password"/>
+  <message msgid="man cpe note" msgstr="Note :" msgstr_en="Note :"/>
+  <message msgid="man cpe note info" msgstr="Please set default gateway, no matter choose LAN-A or LAN-B." msgstr_en="Please set default gateway, no matter choose LAN-A or LAN-B."/>
+  <message msgid="man inform setting" msgstr="Periodic Inform Settings" msgstr_en="Periodic Inform Settings"/>
+  <message msgid="man inform enable" msgstr="Enable" msgstr_en="Enable"/>
+  <message msgid="man inform interval" msgstr="Interval Time" msgstr_en="Interval Time"/>
+  <message msgid="man inform interval seconds" msgstr="second(s)" msgstr_en="second(s)"/>
+  <message msgid="man stun setting" msgstr="STUN Settings" msgstr_en="STUN Settings"/>
+  <message msgid="man stun disable" msgstr="Disable" msgstr_en="Disable"/>
+  <message msgid="man stun enable" msgstr="Enable" msgstr_en="Enable"/>
+  <message msgid="man stun server address" msgstr="Server Address" msgstr_en="Server Address"/>
+  <message msgid="man stun server port" msgstr="Server Port" msgstr_en="Server Port"/>
+  <message msgid="man stun min keep alive period" msgstr="Minimum Keep Alive Period" msgstr_en="Minimum Keep Alive Period"/>
+  <message msgid="man stun max keep alive period" msgstr="Maximum Keep Alive Period" msgstr_en="Maximum Keep Alive Period"/>
+  <message msgid="man stun seconds" msgstr="Second(s)" msgstr_en="Second(s)"/>
+  <message msgid="man tr069 apply" msgstr="OK" msgstr_en="OK"/>
+  <message msgid="man tr069 cancel" msgstr="Cancel" msgstr_en="Cancel"/>
+
+  <message msgid="man cpe dns title" msgstr="DNS Server IP Address" msgstr_en="DNS Server IP Address"/>
+  <message msgid="man cpe 1st dns" msgstr="Primary IP Address" msgstr_en="Primary IP Address"/>
+  <message msgid="man cpe 2nd dns" msgstr="Secondary IP Address" msgstr_en="Secondary IP Address"/>
+  <message msgid="valid IP address" msgstr="DNS IP address is invalid!" msgstr_en="DNS IP address is invalid!"/>
+
+  <message msgid="ntp title" msgstr="Time and Date" msgstr_en="Time and Date" />
+  <message msgid="ntp time info" msgstr="Time Information" msgstr_en="Time Information" />
+  <message msgid="ntp time setting" msgstr="Time Setting" msgstr_en="Time Setting" />
+  <message msgid="ntp current time" msgstr="Current System Time" msgstr_en="Current System Time" />
+  <message msgid="ntp sync with host" msgstr="Inquire Time" msgstr_en="Inquire Time" />
+  <message msgid="ntp time use browser" msgstr="Use Browser Time" msgstr_en="Use Browser Time" />
+  <message msgid="ntp time use ntp" msgstr="Use NTP Client" msgstr_en="Use NTP Client" />
+  <message msgid="ntp server" msgstr="NTP Server" msgstr_en="NTP Server" />
+  <message msgid="use default ntp server" msgstr="Use Default" msgstr_en="Use Default" />
+  <message msgid="ntp sync" msgstr="NTP synchronization" msgstr_en="NTP synchronization" />
+  <message msgid="ntp mode" msgstr="Update via interface" msgstr_en="Update via interface" />
+  <message msgid="ntp timezone" msgstr="Time Zone" msgstr_en="Time Zone" />
+  <message msgid="ntp mid island" msgstr="(GMT-11:00) Midway Island, Samoa" msgstr_en="(GMT-11:00) Midway Island, Samoa" />
+  <message msgid="ntp hawaii" msgstr="(GMT-10:00) Hawaii" msgstr_en="(GMT-10:00) Hawaii" />
+  <message msgid="ntp alaska" msgstr="(GMT-09:00) Alaska" msgstr_en="(GMT-09:00) Alaska" />
+  <message msgid="ntp pacific" msgstr="(GMT-08:00) Pacific Time (US, Canada)" msgstr_en="(GMT-08:00) Pacific Time (US, Canada)" />
+  <message msgid="ntp tijuana" msgstr="(GMT-08:00) Mexico (Tijuana)" msgstr_en="(GMT-08:00) Mexico (Tijuana)" />
+  <message msgid="ntp mountain" msgstr="(GMT-07:00) Mountain Time (US, Canada)" msgstr_en="(GMT-07:00) Mountain Time (US, Canada)" />
+  <message msgid="ntp arizona" msgstr="(GMT-07:00) Arizona" msgstr_en="(GMT-07:00) Arizona" />
+  <message msgid="ntp central" msgstr="(GMT-06:00) Central Time (US, Canada)" msgstr_en="(GMT-06:00) Central Time (US, Canada)" />
+  <message msgid="ntp mid us" msgstr="(GMT-06:00) Middle America" msgstr_en="(GMT-06:00) Middle America" />
+  <message msgid="ntp honduras" msgstr="(GMT-06:00) Honduras, Mexico" msgstr_en="(GMT-06:00) Honduras, Mexico" />
+  <message msgid="ntp indiana east" msgstr="(GMT-05:00) Indiana East, Colombia, Ecuador, Peru" msgstr_en="(GMT-05:00) Indiana East, Colombia, Ecuador, Peru" />
+  <message msgid="ntp eastern" msgstr="(GMT-05:00) Eastern Time (US, Canada)" msgstr_en="(GMT-05:00) Eastern Time (US, Canada)" />
+  <message msgid="ntp atlantic" msgstr="(GMT-04:00) Atlantic Time, Brazil West" msgstr_en="(GMT-04:00) Atlantic Time, Brazil West" />
+  <message msgid="ntp bolivia" msgstr="(GMT-04:00) Bolivia, Chile, Venezuela" msgstr_en="(GMT-04:00) Bolivia, Chile, Venezuela" />
+  <message msgid="ntp newfoundland" msgstr="(GMT-03:30) Canada (Newfoundland)" msgstr_en="(GMT-03:30) Canada (Newfoundland)" />
+  <message msgid="ntp guyana" msgstr="(GMT-03:00) Argentina, Guyana" msgstr_en="(GMT-03:00) Argentina, Guyana" />
+  <message msgid="ntp brazil east" msgstr="(GMT-03:00) Brazil East, Greenland" msgstr_en="(GMT-03:00) Brazil East, Greenland" />
+  <message msgid="ntp mid atlantic" msgstr="(GMT-02:00) Mid-Atlantic" msgstr_en="(GMT-02:00) Mid-Atlantic" />
+  <message msgid="ntp azores islands" msgstr="(GMT-01:00) Azores Islands, Cape Verde Islands" msgstr_en="(GMT-01:00) Azores Islands, Cape Verde Islands" />
+  <message msgid="ntp gambia" msgstr="(GMT) Gambia, Liberia, Morocco" msgstr_en="(GMT) Gambia, Liberia, Morocco" />
+  <message msgid="ntp england" msgstr="(GMT) England, Portugal" msgstr_en="(GMT) England, Portugal" />
+  <message msgid="ntp dublin" msgstr="(GMT) Greenwich Mean Time : Dublin" msgstr_en="(GMT) Greenwich Mean Time : Dublin" />
+  <message msgid="ntp spain" msgstr="(GMT+01:00) Spain, France, Switzerland, Italy" msgstr_en="(GMT+01:00) Spain, France, Switzerland, Italy" />
+  <message msgid="ntp germany" msgstr="(GMT+01:00) Germany, Netherlands, Belgium" msgstr_en="(GMT+01:00) Germany, Netherlands, Belgium" />
+  <message msgid="ntp sweden" msgstr="(GMT+01:00) Sweden, Denmark, Lithuania, Poland" msgstr_en="(GMT+01:00) Sweden, Denmark, Lithuania, Poland" />
+  <message msgid="ntp czech republic" msgstr="(GMT+01:00) Czech Republic, Austria, Slovakia, Hungary" msgstr_en="(GMT+01:00) Czech Republic, Austria, Slovakia, Hungary" />
+  <message msgid="ntp slovenia" msgstr="(GMT+01:00) Slovenia, Croatia, Bosnia Herzegovina" msgstr_en="(GMT+01:00) Slovenia, Croatia, Bosnia Herzegovina" />
+  <message msgid="ntp serbia" msgstr="(GMT+01:00) Serbia, Macedonia, Bulgaria" msgstr_en="(GMT+01:00) Serbia, Macedonia, Bulgaria" />
+  <message msgid="ntp tunisia" msgstr="(GMT+01:00) Tunisia" msgstr_en="(GMT+01:00) Tunisia" />
+  <message msgid="ntp finland" msgstr="(GMT+02:00) Finland, Estonia, Latvia, Belarus" msgstr_en="(GMT+02:00) Finland, Estonia, Latvia, Belarus" />
+  <message msgid="ntp greece" msgstr="(GMT+02:00) Greece, Romania, Ukraine, Turkey" msgstr_en="(GMT+02:00) Greece, Romania, Ukraine, Turkey" />
+  <message msgid="ntp south africa" msgstr="(GMT+02:00) Egypt, South Africa, Zimbabwe" msgstr_en="(GMT+02:00) Egypt, South Africa, Zimbabwe" />
+  <message msgid="ntp iraq" msgstr="(GMT+03:00) Iraq, Jordan, Kuwait, Saudi Arabia" msgstr_en="(GMT+03:00) Iraq, Jordan, Kuwait, Saudi Arabia" />
+  <message msgid="ntp moscow winter" msgstr="(GMT+04:00) Moscow" msgstr_en="(GMT+04:00) Moscow" />
+  <message msgid="ntp iran" msgstr="(GMT+03:00) Iran, Kenya" msgstr_en="(GMT+03:00) Iran, Kenya" />
+  <message msgid="ntp armenia" msgstr="(GMT+04:00) Armenia, Azerbaijan, Georgia" msgstr_en="(GMT+04:00) Armenia, Azerbaijan, Georgia" />
+  <message msgid="ntp arab" msgstr="(GMT+04:00) United Arab Emirates, Oman" msgstr_en="(GMT+04:00) United Arab Emirates, Oman" />
+  <message msgid="ntp afghanistan" msgstr="(GMT+04:30) Afghanistan" msgstr_en="(GMT+04:30) Afghanistan" />
+  <message msgid="ntp pakistan" msgstr="(GMT+05:00) Pakistan, Uzbekistan" msgstr_en="(GMT+05:00) Pakistan, Uzbekistan" />
+  <message msgid="ntp ekaterinburg" msgstr="(GMT+05:00) Russia (Ekaterinburg)" msgstr_en="(GMT+05:00) Russia (Ekaterinburg)" />
+  <message msgid="ntp india" msgstr="(GMT+05:30) India" msgstr_en="(GMT+05:30) India" /> 
+  <message msgid="ntp bangladesh" msgstr="(GMT+06:00) Bangladesh, Sri Lanka, Kazakhstan" msgstr_en="(GMT+06:00) Bangladesh, Sri Lanka, Kazakhstan" />
+  <message msgid="ntp omsk" msgstr="(GMT+06:00) Russia (Omsk)" msgstr_en="(GMT+06:00) Russia (Omsk)" />
+  <message msgid="ntp thailand" msgstr="(GMT+07:00) Thailand, Indonesia, Vietnam" msgstr_en="(GMT+07:00) Thailand, Indonesia, Vietnam" />
+  <message msgid="ntp krasnoyarsk" msgstr="(GMT+07:00) Russia (Krasnoyarsk)" msgstr_en="(GMT+07:00) Russia (Krasnoyarsk)" />
+  <message msgid="ntp chinacoast" msgstr="(GMT+08:00) China Coast, Hong Kong" msgstr_en="(GMT+08:00) China Coast, Hong Kong" />
+  <message msgid="ntp taipei" msgstr="(GMT+08:00) Taipei" msgstr_en="(GMT+08:00) Taipei" />
+  <message msgid="ntp singapore" msgstr="(GMT+08:00) Singapore" msgstr_en="(GMT+08:00) Singapore" />
+  <message msgid="ntp australia wa" msgstr="(GMT+08:00) Australia (WA/Perth)" msgstr_en="(GMT+08:00) Australia (WA/Perth)" />
+  <message msgid="ntp australia eu" msgstr="(GMT+08:45) Australia (Eucla)" msgstr_en="(GMT+08:45) Australia (Eucla)" />
+  <message msgid="ntp australia na" msgstr="(GMT+09:30) Australia (NA/Darwin)" msgstr_en="(GMT+09:30) Australia (NA/Darwin)" />
+  <message msgid="ntp australia sa" msgstr="(GMT+09:30) Australia (SA/Adelaide/Broken Hill)" msgstr_en="(GMT+09:30) Australia (SA/Adelaide/Broken Hill)" />
+  <message msgid="ntp australia qld" msgstr="(GMT+10:00) Australia (Queensland/Brisbane/Lindeman)" msgstr_en="(GMT+10:00) Australia (Queensland/Brisbane/Lindeman)" />
+  <message msgid="ntp australia nsw" msgstr="(GMT+10:00) Australia (NSW/ACT/Canberra/Melbourne/Sydney/Hobart)" msgstr_en="(GMT+10:00) Australia (NSW/ACT/Canberra/Melbourne/Sydney/Hobart)" />
+  <message msgid="ntp australia lh" msgstr="(GMT+10:30) Australia (Lord Howe Island)" msgstr_en="(GMT+10:30) Australia (Lord Howe Island)" />
+  <message msgid="ntp irkutsk" msgstr="(GMT+08:00) Russia (Irkutsk)" msgstr_en="(GMT+08:00) Russia (Irkutsk)" />
+  <message msgid="ntp japan" msgstr="(GMT+09:00) Japan, Korea" msgstr_en="(GMT+09:00) Japan, Korea" />
+  <message msgid="ntp korean" msgstr="(GMT+09:00) Korean" msgstr_en="(GMT+09:00) Korean" />
+  <message msgid="ntp yakutsk" msgstr="(GMT+09:00) Russia (Yakutsk)" msgstr_en="(GMT+09:00) Russia (Yakutsk)" />
+  <message msgid="ntp guam" msgstr="(GMT+10:00) Guam, Papua New Guinea" msgstr_en="(GMT+10:00) Guam, Papua New Guinea" />
+  <message msgid="ntp vladivostok" msgstr="(GMT+10:00) Russia (Vladivostok)" msgstr_en="(GMT+10:00) Russia (Vladivostok)" />
+  <message msgid="ntp solomon islands" msgstr="(GMT+11:00) Solomon Islands, New Caledonia" msgstr_en="(GMT+11:00) Solomon Islands, New Caledonia" />
+  <message msgid="ntp magadan" msgstr="(GMT+11:00) Russia (Magadan)" msgstr_en="(GMT+11:00) Russia (Magadan)" />
+  <message msgid="ntp fiji" msgstr="(GMT+12:00) Fiji, Marshall Islands" msgstr_en="(GMT+12:00) Fiji, Marshall Islands" />
+  <message msgid="ntp newzealand" msgstr="(GMT+12:00) New Zealand" msgstr_en="(GMT+12:00) New Zealand" />
+  <message msgid="ntp daylights" msgstr="Daylight Saving" msgstr_en="Daylight Saving" />
+  <message msgid="ntp sec" msgstr="30 sec" msgstr_en="30 sec" />
+  <message msgid="ntp day" msgstr="1 day" msgstr_en="1 day" />
+  <message msgid="ntp day1" msgstr="3 days" msgstr_en="3 days" />
+  <message msgid="ntp day2" msgstr="5 days" msgstr_en="5 days" />
+  <message msgid="ntp min" msgstr="1 min" msgstr_en="1 min" />
+  <message msgid="ntp min1" msgstr="3 mins" msgstr_en="3 mins" />
+  <message msgid="ntp min2" msgstr="5 mins" msgstr_en="5 mins" />
+  <message msgid="ntp min3" msgstr="10 mins" msgstr_en="10 mins" />
+  <message msgid="ntp min4" msgstr="30 mins" msgstr_en="30 mins" />
+  <message msgid="ntp hour" msgstr="1 hour" msgstr_en="1 hour" />
+  <message msgid="ntp hour1" msgstr="3 hours" msgstr_en="3 hours" />
+  <message msgid="ntp hour2" msgstr="5 hours" msgstr_en="5 hours" />
+
+  <message msgid="reboot title" msgstr="Reboot System" msgstr_en="Reboot System" />
+  <message msgid="reboot system" msgstr="Reboot System" msgstr_en="Reboot System" />
+  <message msgid="reboot confirm" msgstr="Do You want to reboot your AP ?" msgstr_en="Do You want to reboot your AP ?" />
+  <message msgid="reboot current" msgstr=" Using current configuration" msgstr_en=" Using current configuration" />
+  <message msgid="reboot default" msgstr=" Using factory default configuration" msgstr_en=" Using factory default configuration" />
+  <message msgid="reboot current confirm" msgstr="Are you sure you want to perform a Warm Restart?" msgstr_en="Are you sure you want to perform a Warm Restart?" />
+  <message msgid="reboot default confirm" msgstr="Are you sure you want to reset the configuration to Factory Defaults?" msgstr_en="Are you sure you want to reset the configuration to Factory Defaults?" />
+  <message msgid="reboot back str1" msgstr="AP is restarting. Please wait for around" msgstr_en="AP is restarting. Please wait for around" />
+  <message msgid="reboot back str2" msgstr="30 seconds" msgstr_en="30 seconds" />
+  <message msgid="reboot back str3" msgstr="After booting AP, you could click the following URL" msgstr_en="After booting AP, you could click the following URL" />
+  <message msgid="reboot back str4" msgstr="to connect to AP's homepage again." msgstr_en="to connect to AP's homepage again." />
+
+  <message msgid="upload title" msgstr="Firmware Upgrade" msgstr_en="Firmware Upgrade" />
+  <message msgid="upload firmware" msgstr="Firmware Update" msgstr_en="Firmware Update" />
+  <message msgid="upload firmware location" msgstr="Select a firmware file." msgstr_en="Select a firmware file." />
+  <message msgid="upload firmware tip" msgstr="Click Upgrade to upload the file." msgstr_en="Click Upgrade to upload the file." />
+  <message msgid="upload firmware status" msgstr="Firmware Upgrade is in progress... It must NOT be interrupted!" msgstr_en="Firmware Upgrade is in progress... It must NOT be interrupted!" />
+  <message msgid="upload button" msgstr="Upgrade" msgstr_en="Upgrade" />
+
+  <message msgid="cfgbackup title" msgstr="Configuration Backup" msgstr_en="Configuration Backup" />
+  <message msgid="cfgbackup set title" msgstr="Configuration Backup / Restoration" msgstr_en="Configuration Backup / Restoration" />
+  <message msgid="cfgbackup restore title" msgstr="Restoration" msgstr_en="Restoration" />
+  <message msgid="cfgbackup restore location" msgstr="Select a configuration file." msgstr_en="Select a configuration file." />
+  <message msgid="cfgbackup restore buttonlable" msgstr="Click Restore to upload the file." msgstr_en="Click Restore to upload the file." />
+  <message msgid="cfgbackup restore button" msgstr="Restore" msgstr_en="Restore" />
+  <message msgid="cfgbackup backup title" msgstr="Backup" msgstr_en="Backup" />
+  <message msgid="cfgbackup backup buttonlable" msgstr="Click Backup to download current running configurations as a file." msgstr_en="Click Backup to download current running configurations as a file." />
+  <message msgid="cfgbackup backup button" msgstr="Backup" msgstr_en="Backup" />
+
+  <message msgid="schedule enable" msgstr="Enable Schedule" msgstr_en="Enable Schedule" />
+  <message msgid="schedule list" msgstr="Schedule Configuration" msgstr_en="Schedule Configuration" />
+  <message msgid="schedule idx" msgstr="Index." msgstr_en="Index." />
+  <message msgid="schedule setting" msgstr="Setting" msgstr_en="Setting" />
+  <message msgid="schedule status" msgstr="Status" msgstr_en="Status" />
+  <message msgid="schedule start date" msgstr="Start Date" msgstr_en="Start Date" />
+  <message msgid="schedule start time" msgstr="Start time" msgstr_en="Start time" />
+  <message msgid="schedule end time" msgstr="End Time" msgstr_en="End Time" />
+  <message msgid="schedule date desc" msgstr="( Year - Month - Day )" msgstr_en="( Year - Month - Day )" />
+  <message msgid="schedule time desc" msgstr="( Hour : Minute )" msgstr_en="( Hour : Minute )" />
+  <message msgid="schedule action" msgstr="Action" msgstr_en="Action" />
+  <message msgid="schedule action up" msgstr="3G UP" msgstr_en="3G UP" />
+  <message msgid="schedule action down" msgstr="3G DOWN" msgstr_en="3G DOWN" />
+  <message msgid="schedule action reboot" msgstr="Auto Reboot" msgstr_en="Auto Reboot" />
+  <message msgid="schedule act" msgstr="Acts" msgstr_en="Acts" />
+  <message msgid="schedule act once" msgstr="Once" msgstr_en="Once" />
+  <message msgid="schedule act routine" msgstr="Routine" msgstr_en="Routine" />
+  <message msgid="schedule weekday" msgstr="Weekday" msgstr_en="Weekday" />
+  <message msgid="schedule monday" msgstr="Monday" msgstr_en="Monday" />
+  <message msgid="schedule tuesday" msgstr="Tuesday" msgstr_en="Tuesday" />
+  <message msgid="schedule wednesday" msgstr="Wednesday" msgstr_en="Wednesday" />
+  <message msgid="schedule thursday" msgstr="Thursday" msgstr_en="Thursday" />
+  <message msgid="schedule friday" msgstr="Friday" msgstr_en="Friday" />
+  <message msgid="schedule saturday" msgstr="Saturday" msgstr_en="Saturday" />
+  <message msgid="schedule sunday" msgstr="Sunday" msgstr_en="Sunday" />
+  
+  <message msgid="ioskeepalive enable" msgstr="Enable Apple iOS Keep Alive" msgstr_en="Enable Apple iOS Keep Alive" />
+  <message msgid="ioskeepalive intro" msgstr="Apple iOS Keep Alive can keep Wifi connection of iOS device by sending UDP port 5353 packets every 5 seconds." msgstr_en="Apple iOS Keep Alive can keep Wifi connection of iOS device by sending UDP port 5353 packets every 5 seconds." />
+  <message msgid="ioskeepalive index" msgstr="Index" msgstr_en="Index" />
+  <message msgid="ioskeepalive ipaddress" msgstr="Apple iOS Keep Alive IP Address" msgstr_en="Apple iOS Keep Alive IP Address" />
+  <message msgid="ioskeepalive apply" msgstr="OK" msgstr_en="OK" />
+  <message msgid="ioskeepalive add" msgstr="Add" msgstr_en="Add" />
+  <message msgid="ioskeepalive clear" msgstr="Clear" msgstr_en="Clear" />
+  <message msgid="ioskeepalive cancel" msgstr="Cancel" msgstr_en="Cancel" />
+  
+  <message msgid="status title" msgstr="System Status" msgstr_en="System Status" />
+  <message msgid="status model" msgstr="Model" msgstr_en="Model" />
+  <message msgid="status sdk version" msgstr="Firmware Version" msgstr_en="Firmware Version" />
+  <message msgid="status build date" msgstr="Build Date/Time" msgstr_en="Build Date/Time" />
+  <message msgid="status system date" msgstr="System Date" msgstr_en="System Date" />
+  <message msgid="status system up time" msgstr="System Uptime" msgstr_en="System Uptime" />
+  <message msgid="status operate mode" msgstr="Operation Mode" msgstr_en="Operation Mode" />
+  <message msgid="status system" msgstr="System" msgstr_en="System" />
+  <message msgid="status memory total" msgstr="Memory Total" msgstr_en="Memory Total" />
+  <message msgid="status memory left" msgstr="Memory Left" msgstr_en="Memory Left" />
+  <message msgid="status local network" msgstr="LAN" msgstr_en="LAN" />
+  <message msgid="status mac" msgstr="MAC Address" msgstr_en="MAC Address" />
+  <message msgid="status ipaddr" msgstr="IP Address" msgstr_en="IP Address" />
+  <message msgid="status netmask" msgstr="IP Mask" msgstr_en="IP Mask" />
+  <message msgid="status connect type" msgstr="Connected Type" msgstr_en="Connected Type" />
+  <message msgid="status link status" msgstr="Link Status" msgstr_en="Link Status" />
+  <message msgid="status default gateway" msgstr="Default Gateway" msgstr_en="Default Gateway" />
+  <message msgid="status primary dns" msgstr="Primary DNS" msgstr_en="Primary DNS" />
+  <message msgid="status secondary dns" msgstr="Secondary DNS" msgstr_en="Secondary DNS" />
+  <message msgid="status wlan status" msgstr="Wireless LAN (2.4GHz)" msgstr_en="Wireless LAN (2.4GHz)" />
+  <message msgid="status wlan status 5G" msgstr="Wireless LAN (5GHz)" msgstr_en="Wireless LAN (5GHz)" />
+  <message msgid="status wlan 24g" msgstr="Wireless(2.4GHz)" msgstr_en="Wireless(2.4GHz)" />
+  <message msgid="status wlan 5g" msgstr="Wireless(5GHz)" msgstr_en="Wireless(5GHz)" />
+  <message msgid="status security 24g" msgstr="Security(2.4GHz)" msgstr_en="Security(2.4GHz)" />
+  <message msgid="status security 5g" msgstr="Security(5GHz)" msgstr_en="Security(5GHz)" />
+  <message msgid="status wlan ssid" msgstr="SSID" msgstr_en="SSID" />
+  <message msgid="status wlan channel" msgstr="Channel" msgstr_en="Channel" />
+
+  <message msgid="syslog title" msgstr="System Log" msgstr_en="System Log" />
+  <message msgid="syslog system log" msgstr="System Log Information" msgstr_en="System Log Information" />
+  <message msgid="syslog clear" msgstr="Clear" msgstr_en="Clear" />
+  <message msgid="syslog refresh" msgstr="Refresh" msgstr_en="Refresh" />
+  <message msgid="syslog line wrap" msgstr="Line wrap" msgstr_en="Line wrap" />
+
+  <message msgid="sysml title" msgstr="Syslog / Mail Alert Setup" msgstr_en="Syslog / Mail Alert Setup" />
+  <message msgid="sysml sl title" msgstr="Syslog Access Setup" msgstr_en="Syslog Access Setup" />
+  <message msgid="sysml sl enable" msgstr="Enable" msgstr_en="Enable" />
+  <message msgid="sysml sl ip" msgstr="Server IP Address" msgstr_en="Server IP Address" />
+  <message msgid="sysml sl port" msgstr="Destination Port" msgstr_en="Destination Port" />
+  <message msgid="sysml sl level" msgstr="Log Level" msgstr_en="Log Level" />
+  <message msgid="sysml sl level all" msgstr="All" msgstr_en="All" />
+  <message msgid="sysml sl level info" msgstr="Info" msgstr_en="Info" />
+  <message msgid="sysml sl level warn" msgstr="Warning" msgstr_en="Warning" />
+  <message msgid="sysml sl level error" msgstr="Error" msgstr_en="Error" />
+  <message msgid="sysml ml title" msgstr="Mail Alert Setup" msgstr_en="Mail Alert Setup" />
+  <message msgid="sysml ml enable" msgstr="Enable" msgstr_en="Enable" />
+  <message msgid="sysml ml smtp" msgstr="SMTP Server" msgstr_en="SMTP Server" />
+  <message msgid="sysml ml mailto" msgstr="Mail To" msgstr_en="Mail To" />
+  <message msgid="sysml ml mailfrom" msgstr="Mail From" msgstr_en="Mail From" />
+  <message msgid="sysml ml usr" msgstr="User Name" msgstr_en="User Name" />
+  <message msgid="sysml ml pwd" msgstr="Password" msgstr_en="Password" />
+  <message msgid="sysml ml alert" msgstr="Enable E-Mail Alert:" msgstr_en="Enable E-Mail Alert:" />
+  <message msgid="sysml ml usrlogin" msgstr="User Login" msgstr_en="User Login" />
+
+  <message msgid="wiz title" msgstr="Quick Start Wizard" msgstr_en="Quick Start Wizard" />  
+  <message msgid="wiz 2.4g wireless" msgstr="Wireless LAN (2.4GHz)" msgstr_en="Wireless LAN (2.4GHz)" />  
+  <message msgid="wiz 5g wireless" msgstr="Wireless LAN (5GHz)" msgstr_en="Wireless LAN (5GHz)" />
+  <message msgid="wiz operation mode" msgstr="Operation Mode : " msgstr_en="Operation Mode : " />  
+  <message msgid="wiz mode ap" msgstr="AP" msgstr_en="AP" />
+  <message msgid="wiz mode sta" msgstr="Station-Infrastructure" msgstr_en="Station-Infrastructure" />
+  <message msgid="wiz mode apbp2p" msgstr="AP Bridge-Point to Point" msgstr_en="AP Bridge-Point to Point" />
+  <message msgid="wiz mode apbp2mp" msgstr="AP Bridge-Point to Multi-Point" msgstr_en="AP Bridge-Point to Multi-Point" />
+  <message msgid="wiz mode apbwds" msgstr="AP Bridge-WDS" msgstr_en="AP Bridge-WDS" />
+  <message msgid="wiz mode ur" msgstr="Universal Repeater" msgstr_en="Universal Repeater" />
+  <message msgid="wiz wireless mode" msgstr="Wireless Mode : " msgstr_en="Wireless Mode : " />
+  <message msgid="wiz wireless 11b only" msgstr="11b Only" msgstr_en="11b Only" />
+  <message msgid="wiz wireless 11g only" msgstr="11g Only" msgstr_en="11g Only" />
+  <message msgid="wiz wireless 11n only" msgstr="11n Only" msgstr_en="11n Only" />
+  <message msgid="wiz wireless bg mix" msgstr="Mixed(11b+11g)" msgstr_en="Mixed(11b+11g)" />
+  <message msgid="wiz wireless bgn mix" msgstr="Mixed(11b+11g+11n)" msgstr_en="Mixed(11b+11g+11n)" />
+  <message msgid="wiz wireless 11a only" msgstr="11a only" msgstr_en="11a only" />
+  <message msgid="wiz wireless an mix" msgstr="Mixed (11a+11n)" msgstr_en="Mixed (11a+11n)" />
+  <message msgid="wiz wireless 11n 5g only" msgstr="11n only (5GHz)" msgstr_en="11n only (5GHz)" />
+  <message msgid="wiz wireless ssid title" msgstr="Main SSID : " msgstr_en="Main SSID : " />
+  <message msgid="wiz wireless ssid 2nd subnet enable" msgstr="Enable 2 Subnet (Simulate 2 APs)" msgstr_en="Enable 2 Subnet (Simulate 2 APs)" />
+  <message msgid="wiz wireless multi ssid" msgstr="Multiple SSID" msgstr_en="Multiple SSID" />
+  <message msgid="wiz wireless display btnw" msgstr="Display" msgstr_en="Display" />
+  <message msgid="wiz wireless channel" msgstr="Channel : " msgstr_en="Channel : " />
+  <message msgid="wiz wireless extension channel" msgstr="Extension Channel : " msgstr_en="Extension Channel : " />
+  <message msgid="wiz wireless subnet" msgstr="Subnet" msgstr_en="Subnet" />
+  <message msgid="wiz wireless station list" msgstr="Station List : " msgstr_en="Station List : " />
+  <message msgid="wiz wireless ap discovery" msgstr="AP Discovery : " msgstr_en="AP Discovery : " />
+  <message msgid="wiz wireless wds note" msgstr="Note : " msgstr_en="Note : " />
+  <message msgid="wiz wireless wds note1" msgstr="Enter the configuration of APs which AP 800 want to connect." msgstr_en="Enter the configuration of APs which AP 800 want to connect." />
+  <message msgid="wiz wireless wds note2" msgstr="Remote AP should always set LAN-A MAC address to connect AP800 WDS." msgstr_en="Remote AP should always set LAN-A MAC address to connect AP800 WDS." />
+  <message msgid="wiz wireless phy mode" msgstr="Phy Mode : " msgstr_en="Phy Mode : " />
+  <message msgid="wiz wireless security" msgstr="Security : " msgstr_en="Security : " />
+  <message msgid="wiz wireless disabled" msgstr="Disabled" msgstr_en="Disabled" />
+  <message msgid="wiz wireless key" msgstr="Key" msgstr_en="Key" />
+  <message msgid="wiz wireless peer mac" msgstr="Peer MAC Address : " msgstr_en="Peer MAC Address : " />
+  <message msgid="wiz wireless subnet" msgstr="Subnet" msgstr_en="Subnet" />
+  <message msgid="wiz apcli select" msgstr="Please input the SSID you want to connect to :" msgstr_en="Please input the SSID you want to connect to :" />
+  <message msgid="wiz apcli set" msgstr="Universal Repeater Parameters" msgstr_en="Universal Repeater Parameters" />
+  <message msgid="wiz apcli mac" msgstr="MAC Address (Optional)" msgstr_en="MAC Address (Optional)" />
+  <message msgid="wiz apcli mode" msgstr="Security Mode" msgstr_en="Security Mode" />
+  <message msgid="wiz apcli ecn" msgstr="Encryption Type" msgstr_en="Encryption Type" />
+  <message msgid="wiz apcli wepkey" msgstr="WEP Keys" msgstr_en="WEP Keys" />
+  <message msgid="wiz apcli keys" msgstr="Key" msgstr_en="Key" />
+  <message msgid="wiz apcli passphase" msgstr="Pass Phrase" msgstr_en="Pass Phrase" />
+  <message msgid="wiz add profile" msgstr="Setup Profile to connect to AP :" msgstr_en="Setup Profile to connect to AP :" />
+  <message msgid="wiz save" msgstr="Vigor Wizard Setup is now finished!" msgstr_en="Vigor Wizard Setup is now finished!" />
+  <message msgid="wiz save str1" msgstr="Press Finish button to save and finish the wizard setup" msgstr_en="Press Finish button to save and finish the wizard setup" />
+  <message msgid="wiz save str2" msgstr="Note that the configuration process takes a few seconds to complete" msgstr_en="Note that the configuration process takes a few seconds to complete" />
+  <message msgid="wiz save str3" msgstr="Basic settings for AP 800 is completed" msgstr_en="Basic Settings for AP800 is completed" />
+  <message msgid="wiz save str4" msgstr="For security purposes, strongly suggest you to setup " msgstr_en="For security purposes, strongly suggest you to setup" />
+  <message msgid="wiz save str5" msgstr="Security Mode for Wireless" msgstr_en="Security Mode for Wireless" />
+  <message msgid="wiz save str6" msgstr="in advanced setting pages" msgstr_en="in advanced setting pages" />
+
+  <message msgid="wiz wireless security title" msgstr="Wireless Security Settings" msgstr_en="Wireless Security Settings" />
+  <message msgid="wiz wireless security mode" msgstr="Mode" msgstr_en="Mode" />
+  <message msgid="wiz 2.4g security" msgstr="Wireless Security (2.4GHz)" msgstr_en="Wireless Security (2.4GHz)" />
+  <message msgid="wiz 5g security" msgstr="Wireless Security (5GHz)" msgstr_en="Wireless Security (5GHz)" />
+    <message msgid="wiz back" msgstr="&lt; Back" msgstr_en="&lt; Back" />
+  <message msgid="wiz next" msgstr="Next &gt;" msgstr_en="Next &gt;" />
+  <message msgid="wiz finish" msgstr="Finish" msgstr_en="Finish" />
+  <message msgid="wiz cancel confirm" msgstr="Are you sure you want to cancel this wizard?" msgstr_en="Are you sure you want to cancel this wizard?" />
+  <message msgid="wiz wds mac empty" msgstr="Please fill WDS remote AP MAC Address!" msgstr_en="Please fill WDS remote AP MAC Address!" />
+  <message msgid="wiz wds mac error" msgstr="Please fill WDS remote AP MAC Address in correct format!" msgstr_en="Please fill WDS remote AP MAC Address in correct format!" />
+  <message msgid="wiz wds mac invalid" msgstr="Mac address isn't valid." msgstr_en="Mac address isn't valid." />
+
+  <message msgid="opmode title" msgstr="Operation Mode Configuration" msgstr_en="Operation Mode Configuration" />
+  <message msgid="opmode mode ap" msgstr="AP :" msgstr_en="AP :" />
+  <message msgid="opmode mode ap intro" msgstr="AP 800 acts as a bridge between wireless devices and wired Ethernet network, and exchanges data between them." msgstr_en="AP 800 acts as a bridge between wireless devices and wired Ethernet network, and exchanges data between them." />
+  <message msgid="opmode mode sta" msgstr="Station-Infrastructure :" msgstr_en="Station-Infrastructure :" />
+  <message msgid="opmode mode sta intro" msgstr="Enable the Ethernet device as a wireless station and join a wireless network through an AP." msgstr_en="Enable the Ethernet device as a wireless station and join a wireless network through an AP." />
+  <message msgid="opmode mode apbp2p" msgstr="AP Bridge-Point to Point :" msgstr_en="AP Bridge-Point to Point :" />
+  <message msgid="opmode mode apbp2p intro" msgstr="AP 800 will connect to another AP 800 which uses the same mode, and all wired Ethernet clients of both AP 800s will be connected together." msgstr_en="AP 800 will connect to another AP 800 which uses the same mode, and all wired Ethernet clients of both AP 800s will be connected together." />
+  <message msgid="opmode mode apbp2mp" msgstr="AP Bridge-Point to Multi-Point :" msgstr_en="AP Bridge-Point to Multi-Point :" />
+  <message msgid="opmode mode apbp2mp intro" msgstr="AP 800 will connect to up to four AP 800s which uses the same mode, and all wired Ethernet clients of every AP 800s will be connected together." msgstr_en="AP 800 will connect to up to four AP 800s which uses the same mode, and all wired Ethernet clients of every AP 800s will be connected together." />
+  <message msgid="opmode mode apbwds" msgstr="AP Bridge-WDS :" msgstr_en="AP Bridge-WDS :" />
+  <message msgid="opmode mode apbwds intro" msgstr="AP 800 will connect to up to four AP 800s which uses the same mode, and all wired Ethernet clients of every AP 800s will be connected together." msgstr_en="AP 800 will connect to up to four AP 800s which uses the same mode, and all wired Ethernet clients of every AP 800s will be connected together." />
+  <message msgid="opmode mode apbwds intro1" msgstr="This mode is still able to accept wireless clients." msgstr_en="This mode is still able to accept wireless clients." />
+  <message msgid="opmode mode ur" msgstr="Universal Repeater :" msgstr_en="Universal Repeater :" />
+  <message msgid="opmode mode ur intro" msgstr="AP 800 can act as a wireless repeater; it can be Station and AP at the same time." msgstr_en="AP 800 can act as a wireless repeater; it can be Station and AP at the same time." />
+  <message msgid="speed test" msgstr="Speed Test" msgstr_en="Speed Test" />
+  
+<message msgid="warn default pwd1" msgstr="WARNING: Your AP is still set to default password. You should change it via System Maintenance menu." msgstr_en="WARNING: Your AP is still set to default password. You should change it via System Maintenance menu." />
+  <message msgid="msg password too long" msgstr="The length of the password cannot be longer than 23 characters. Please enter it again." msgstr_en="The length of the password cannot be longer than 23 characters. Please enter it again." />
+</po>

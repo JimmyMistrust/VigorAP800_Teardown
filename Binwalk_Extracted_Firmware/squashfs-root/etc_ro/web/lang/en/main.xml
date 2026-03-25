@@ -1,0 +1,110 @@
+<po>
+  <message msgid="main apply" msgstr="OK" msgstr_en="OK" />
+  <message msgid="main cancel" msgstr="Cancel" msgstr_en="Cancel" />
+  <message msgid="main enable" msgstr="Enable" msgstr_en="Enable" />
+  <message msgid="main disable" msgstr="Disable" msgstr_en="Disable" />
+
+  <message msgid="online title" msgstr="Online Status" msgstr_en="Online Status" />
+  <message msgid="online system title" msgstr="System Status" msgstr_en="System Status" />
+  <message msgid="online system uptime" msgstr="System Uptime" msgstr_en="System Uptime" />
+  <message msgid="online lan status" msgstr="LAN Status" msgstr_en="LAN Status" />
+  <message msgid="online lan ipaddr" msgstr="IP Address" msgstr_en="IP Address" />
+  <message msgid="online mac" msgstr="Mac" msgstr_en="Mac" />
+  <message msgid="online tx pkts" msgstr="TX Packets" msgstr_en="TX Packets" />
+  <message msgid="online rx pkts" msgstr="RX Packets" msgstr_en="RX Packets" />
+  <message msgid="online tx bytes" msgstr="TX Bytes" msgstr_en="TX Bytes" />
+  <message msgid="online rx bytes" msgstr="RX Bytes" msgstr_en="RX Bytes" />
+  <message msgid="online wan status" msgstr="WAN Status" msgstr_en="WAN Status" />
+  <message msgid="online 3gwan status" msgstr="3G WAN Status" msgstr_en="3G WAN Status" />
+  <message msgid="online wan ipaddr" msgstr="IP" msgstr_en="IP" />
+  <message msgid="online default gateway" msgstr="GW IP" msgstr_en="GW IP" />
+  <message msgid="online wan mode" msgstr="Mode" msgstr_en="Mode" />
+  <message msgid="online wan uptime" msgstr="Up Time" msgstr_en="Up Time" />
+  <message msgid="online wan manufacturer" msgstr="Manufacturer" msgstr_en="Manufacturer" />
+  <message msgid="online wan signal" msgstr="Signal" msgstr_en="Signal" />
+  <message msgid="online primary dns" msgstr="Primary DNS" msgstr_en="Primary DNS" />
+  <message msgid="online secondary dns" msgstr="Secondary DNS" msgstr_en="Secondary DNS" />
+  <message msgid="online 3gwan marginal" msgstr="Marginal" msgstr_en="Marginal" />
+  <message msgid="online 3gwan workable" msgstr="Workable" msgstr_en="Workable" />
+  <message msgid="online 3gwan good" msgstr="Good" msgstr_en="Good" />
+  <message msgid="online 3gwan excellent" msgstr="Excellent" msgstr_en="Excellent" />
+  <message msgid="online si link status" msgstr="Station Link Status" msgstr_en="Station Link Status" />
+  <message msgid="online si link ssid" msgstr="SSID" msgstr_en="SSID" />
+  <message msgid="online si link extra info" msgstr="Status" msgstr_en="Status" />
+  <message msgid="online si link channel" msgstr="Channel" msgstr_en="Channel" />
+  <message msgid="online si link speed" msgstr="Link Speed Tx/Rx(Mbps)" msgstr_en="Link Speed Tx/Rx(Mbps)" />
+  <message msgid="online si link throughput" msgstr="Throughput Tx/Rx(Mbps)" msgstr_en="Throughput Tx/Rx(Kbps)" />
+  <message msgid="online si link quality" msgstr="Link Quality" msgstr_en="Link Quality" />
+
+  <message msgid="treeapp quick wizard" msgstr="Quick Start Wizard" msgstr_en="Quick Start Wizard" />
+  <message msgid="treeapp operation mode" msgstr="Operation Mode" msgstr_en="Operation Mode" />
+  <message msgid="treeapp online status" msgstr="Online Status" msgstr_en="Online Status" />
+  <message msgid="treeapp wan" msgstr="WAN" msgstr_en="WAN" />
+  <message msgid="treeapp internet access" msgstr="Internet Access" msgstr_en="Internet Access" />
+  <message msgid="treeapp 3g backup" msgstr="3G Backup" msgstr_en="3G Backup" />
+  <message msgid="treeapp lan" msgstr="LAN" msgstr_en="LAN" />
+  <message msgid="treeapp general setup" msgstr="General Setup" msgstr_en="General Setup" />
+  <message msgid="treeapp cam" msgstr="Central AP Management" msgstr_en="Central AP Management" />
+  <message msgid="treeapp fun support list" msgstr="Function Support List" msgstr_en="Function Support List" />
+  <message msgid="treeapp static route" msgstr="Static Route" msgstr_en="Static Route" />
+  <message msgid="treeapp nat" msgstr="NAT" msgstr_en="NAT" />
+  <message msgid="treeapp open port" msgstr="Open Port" msgstr_en="Open Port" />
+  <message msgid="treeapp dmz host" msgstr="DMZ Host" msgstr_en="DMZ Host" />
+  <message msgid="treeapp session limit" msgstr="Session Limit" msgstr_en="Session Limit" />
+  <message msgid="treeapp firewall" msgstr="Firewall" msgstr_en="Firewall" />
+  <message msgid="treeapp dos defense" msgstr="DoS Defense" msgstr_en="DoS Defense" />
+  <message msgid="treeapp ip/port filtering" msgstr="MAC/IP/Port Filtering" msgstr_en="MAC/IP/Port Filtering" />
+  <message msgid="treeapp system security" msgstr="System Security" msgstr_en="System Security" />
+  <message msgid="treeapp content filtering" msgstr="Content Filtering" msgstr_en="Content Filtering" />
+  <message msgid="treeapp applications" msgstr="Applications" msgstr_en="Applications" />
+  <message msgid="treeapp dynamic dns" msgstr="Dynamic DNS" msgstr_en="Dynamic DNS" />
+  <message msgid="treeapp stp" msgstr="802.1d Spanning Tree" msgstr_en="802.1d Spanning Tree" />
+  <message msgid="treeapp lltd" msgstr="LLTD" msgstr_en="LLTD" />
+  <message msgid="treeapp igmp" msgstr="IGMP" msgstr_en="IGMP" />
+  <message msgid="treeapp upnp" msgstr="UPnP" msgstr_en="UPnP" />
+  <message msgid="treeapp wireless lan" msgstr="Wireless LAN (2.4GHz)" msgstr_en="Wireless LAN (2.4GHz)" />
+  <message msgid="treeapp profile" msgstr="Profile" msgstr_en="Profile" />
+  <message msgid="treeapp link status" msgstr="Link Status" msgstr_en="Link Status" />
+  <message msgid="treeapp site survey" msgstr="Site Survey" msgstr_en="Site Survey" />
+  <message msgid="treeapp statistics" msgstr="Statistics" msgstr_en="Statistics" />
+  <message msgid="treeapp advance" msgstr="Advance" msgstr_en="Advance" />
+  <message msgid="treeapp qos" msgstr="QoS" msgstr_en="QoS" />
+  <message msgid="treeapp 11n configurations" msgstr="11n Configurations" msgstr_en="11n Configurations" />
+  <message msgid="treeapp about" msgstr="About" msgstr_en="About" />
+  <message msgid="treeapp basic" msgstr="General Setup" msgstr_en="General Setup" />
+  <message msgid="treeapp security" msgstr="Security" msgstr_en="Security" />
+  <message msgid="treeapp radius server" msgstr="RADIUS Server" msgstr_en="RADIUS Server" />
+  <message msgid="treeapp access" msgstr="Access Control" msgstr_en="Access Control" />
+  <message msgid="treeapp wps" msgstr="WPS" msgstr_en="WPS" />
+  <message msgid="treeapp wds" msgstr="WDS" msgstr_en="WDS" />
+  <message msgid="treeapp ap discovery" msgstr="AP Discovery" msgstr_en="AP Discovery" />
+  <message msgid="treeapp wds status" msgstr="WDS AP Status" msgstr_en="WDS AP Status" />
+  <message msgid="treeapp wmm" msgstr="WMM Configuration" msgstr_en="WMM Configuration" />
+  <message msgid="treeapp universal repeater" msgstr="Universal Repeater" msgstr_en="Universal Repeater" />
+  <message msgid="treeapp station list" msgstr="Station List" msgstr_en="Station List" />
+  <message msgid="treeapp bandwidth management" msgstr="Bandwidth Management" msgstr_en="Bandwidth Management" />
+  <message msgid="treeapp system maintenance" msgstr="System Maintenance" msgstr_en="System Maintenance" />
+  <message msgid="treeapp system status" msgstr="System Status" msgstr_en="System Status" />
+  <message msgid="treeapp administration password" msgstr="Administration Password" msgstr_en="Administration Password" />
+  <message msgid="treeapp user password" msgstr="User Password" msgstr_en="User Password" />
+  <message msgid="treeapp tr069" msgstr="TR-069" msgstr_en="TR-069" />
+  <message msgid="treeapp configuration backup" msgstr="Configuration Backup" msgstr_en="Configuration Backup" />
+  <message msgid="treeapp syslog/mail alert" msgstr="Syslog / Mail Alert" msgstr_en="Syslog / Mail Alert" />
+  <message msgid="treeapp time/date" msgstr="Time and Date" msgstr_en="Time and Date" />
+  <message msgid="treeapp management" msgstr="Management" msgstr_en="Management" />
+  <message msgid="treeapp reboot system" msgstr="Reboot System" msgstr_en="Reboot System" />
+  <message msgid="treeapp firmware upgrade" msgstr="Firmware Upgrade" msgstr_en="Firmware Upgrade" />
+  <message msgid="treeapp speed test" msgstr="Speed Test" msgstr_en="Speed Test" />
+  <message msgid="treeapp diagnostics" msgstr="Diagnostics" msgstr_en="Diagnostics" />
+  <message msgid="treeapp system log" msgstr="System Log" msgstr_en="System Log" />
+  <message msgid="treeapp dhcp table" msgstr="DHCP Table" msgstr_en="DHCP Table" />
+  <message msgid="treeapp wireless lan 5g" msgstr="Wireless LAN (5GHz)" msgstr_en="Wireless LAN (5GHz)" />
+  <message msgid="treeapp schedule" msgstr="Schedule" msgstr_en="Schedule" />
+  <message msgid="treeapp ioskeepalive" msgstr="Apple iOS Keep Alive" msgstr_en="Apple iOS Keep Alive" />
+  <message msgid="treeapp applications" msgstr="Applications" msgstr_en="Applications" />
+  
+  <message msgid="treeapp support area" msgstr="Support Area" msgstr_en="Support Area" />
+  <message msgid="treeapp application note" msgstr="FAQ/Application Note" msgstr_en="FAQ/Application Note" />
+  <message msgid="treeapp product registration" msgstr="Product Registration" msgstr_en="Product Registration" />
+  <message msgid="treeapp all right reserved" msgstr="All Right Reserved" msgstr_en="All Right Reserved." />
+</po>

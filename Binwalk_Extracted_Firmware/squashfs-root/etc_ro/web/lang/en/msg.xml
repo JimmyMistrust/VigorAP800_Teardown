@@ -1,0 +1,5 @@
+<po>
+  <message msgid="msg lan connection lost" msgstr="Warning: It may take a few seconds before changes are applied. Ethernet connections will be lost for a moment." msgstr_en="Warning: It may take a few seconds before changes are applied. Ethernet connections will be lost for a moment." />
+  <message msgid="msg lan apmc en" msgstr="Warning: VigorAP Management may acquire a different IP address. You will need to contact with your network administrator." msgstr_en="Warning: VigorAP Management may acquire a different IP address. You will need to contact with your network administrator." />
+  <message msgid="msg sched del" msgstr="Please select the schedule to be deleted." msgstr_en="Please select the schedule to be deleted." />
+</po>

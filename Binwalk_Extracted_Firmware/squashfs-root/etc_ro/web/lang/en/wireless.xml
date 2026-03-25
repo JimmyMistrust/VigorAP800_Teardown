@@ -1,0 +1,290 @@
+<po>
+  <message msgid="wireless apply" msgstr="OK" msgstr_en="OK" />
+  <message msgid="wireless cancel" msgstr="Cancel" msgstr_en="Cancel" />
+  <message msgid="wireless enable" msgstr="Enable" msgstr_en="Enable" />
+  <message msgid="wireless disable" msgstr="Disable" msgstr_en="Disable" />
+  <message msgid="wireless auto" msgstr="Auto" msgstr_en="Auto" />
+  <message msgid="wireless long" msgstr="Long" msgstr_en="Long" />
+  <message msgid="wireless none" msgstr="None" msgstr_en="None" />
+  <message msgid="wireless ssid" msgstr="SSID" msgstr_en="SSID" />
+  <message msgid="wireless ssid1" msgstr="SSID:" msgstr_en="SSID:" />
+  <message msgid="wireless wepkey" msgstr="Key" msgstr_en="Key" />
+  <message msgid="wireless add" msgstr="Add" msgstr_en="Add" />
+  <message msgid="wireless del" msgstr="Delete" msgstr_en="Delete" />
+  <message msgid="wireless edit" msgstr="Edit" msgstr_en="Edit" />
+
+<message msgid="wireless close" msgstr="Close" msgstr_en="Close" />
+
+
+  <message msgid="parent wireless lan" msgstr="Wireless LAN (2.4GHz)" msgstr_en="Wireless LAN (2.4GHz)" />
+  <message msgid="parent wireless lan 5g" msgstr="Wireless LAN (5GHz)" msgstr_en="Wireless LAN (5GHz)" />
+
+  <message msgid="station add" msgstr="Add" msgstr_en="Add" />
+  <message msgid="station del" msgstr="Delete" msgstr_en="Delete" />
+  <message msgid="station edit" msgstr="Edit" msgstr_en="Edit" />
+  <message msgid="station active" msgstr="Activate" msgstr_en="Activate" />
+  <message msgid="station enable" msgstr="enable" msgstr_en="enable" />
+  <message msgid="station used" msgstr=" Used&#160;&#160;" msgstr_en=" Used&#160;&#160;" />
+  <message msgid="station network type" msgstr="Network Type" msgstr_en="Network Type" />
+
+  <message msgid="basic title" msgstr="General Setup" msgstr_en="General Setup" />
+  <message msgid="basic wireless network" msgstr="General Setting ( IEEE 802.11 )" msgstr_en="General Setting ( IEEE 802.11 )" />
+  <message msgid="basic enable" msgstr="Enable Wireless LAN" msgstr_en="Enable Wireless LAN" />
+  <message msgid="basic mode" msgstr="Mode :" msgstr_en="Mode :" />
+  <message msgid="basic hssid" msgstr="Hide SSID" msgstr_en="Hide SSID" />
+  <message msgid="basic ssid" msgstr="SSID" msgstr_en="SSID" />
+  <message msgid="basic subnet" msgstr="Subnet" msgstr_en="Subnet" />
+  <message msgid="basic isolate" msgstr="Isolate Member" msgstr_en="Isolate Member" />
+  <message msgid="inet mac clone" msgstr="Mac Clone" msgstr_en="Mac Clone" />
+  <message msgid="basic vlan id" msgstr="VLAN ID (0:Untagged)" msgstr_en="VLAN ID (0:Untagged)" />
+  <message msgid="basic isolated lan" msgstr="Isolate LAN" msgstr_en="Isolate LAN" />
+  <message msgid="basic hssid title" msgstr="Hide SSID" msgstr_en="Hide SSID" />
+  <message msgid="basic hssid intro" msgstr="Prevent SSID from being scanned." msgstr_en="Prevent SSID from being scanned." />
+  <message msgid="basic isolate intro" msgstr="Wireless clients (stations) with the same SSID cannot access for each other." msgstr_en="Wireless clients (stations) with the same SSID cannot access for each other." />
+  <message msgid="basic isolate lan intro" msgstr="Wireless clients (stations) with the same SSID cannot access wired PCs on LAN." msgstr_en="Wireless clients (stations) with the same SSID cannot access wired PCs on LAN." />
+  <message msgid="basic ssid4 title" msgstr="SSID4" msgstr_en="SSID4" />
+  <message msgid="basic ssid4 intro" msgstr="Reserved for Universal Repeater mode so it's not listed." msgstr_en="Reserved for Universal Repeater mode so it's not listed." />
+  <message msgid="basic frequency" msgstr="Channel :" msgstr_en="Channel :" />
+  <message msgid="basic ext channel" msgstr="Extension Channel :" msgstr_en="Extension Channel :" /> 
+  <message msgid="basic frequency auto" msgstr="AutoSelect" msgstr_en="AutoSelect" />
+  <message msgid="basic rate" msgstr="Rate :" msgstr_en="Rate :" />
+  <message msgid="basic note" msgstr="Note :" msgstr_en="Note :" />
+  <message msgid="basic pkt" msgstr="Packet-OVERDRIVE" msgstr_en="Packet-OVERDRIVE" />
+  <message msgid="basic pkt burst" msgstr="Tx Burst" msgstr_en="Tx Burst" />
+  <message msgid="basic pkt str1" msgstr="1.Tx Burst only supports 11g mode." msgstr_en="1.Tx Burst only supports 11g mode." />
+  <message msgid="basic pkt str2" msgstr="2.The same technology must also be supported in clients to boost WLAN performance." msgstr_en="2.The same technology must also be supported in clients to boost WLAN performance." />
+  <message msgid="basic ur" msgstr="Universal Repeater" msgstr_en="Universal Repeater" />
+  <message msgid="basic ur str" msgstr="If Universal Repeater is enabled, one additional wireless interface is treated as WAN port. The wireless AP interface and the ethernet ports are LAN ports." msgstr_en="If Universal Repeater is enabled, one additional wireless interface is treated as WAN port. The wireless AP interface and the ethernet ports are LAN ports." />
+
+<message msgid="basic vlan id error" msgstr="VLAN ID must between 0 and 4095!" msgstr_en="VLAN ID must between 0 and 4095!" />
+  
+  <message msgid="adv fragment threshold" msgstr="Fragment Threshold" msgstr_en="Fragment Threshold" />
+  <message msgid="adv fragment threshold range" msgstr="(range 256 - 2346, default 2346)" msgstr_en="(range 256 - 2346, default 2346)" />
+  <message msgid="adv rts threshold" msgstr="RTS Threshold" msgstr_en="RTS Threshold" />
+  <message msgid="adv rts threshold range" msgstr="(range 1 - 2347, default 2347)" msgstr_en="(range 1 - 2347, default 2347)" />
+
+  <message msgid="secure title" msgstr="Security Settings" msgstr_en="Security Settings" />
+  <message msgid="secure mode" msgstr="Mode" msgstr_en="Mode" />
+  <message msgid="secure security mode" msgstr="Security Mode" msgstr_en="Security Mode" />
+  <message msgid="secure encryp type" msgstr="Encrypt Type" msgstr_en="Encrypt Type" />
+  <message msgid="secure wep default key" msgstr="Default Key" msgstr_en="Default Key" />
+  <message msgid="secure wep default key1" msgstr="Key 1" msgstr_en="Key 1" />
+  <message msgid="secure wep default key2" msgstr="Key 2" msgstr_en="Key 2" />
+  <message msgid="secure wep default key3" msgstr="Key 3" msgstr_en="Key 3" />
+  <message msgid="secure wep default key4" msgstr="Key 4" msgstr_en="Key 4" />
+  <message msgid="secure wep key" msgstr="WEP Keys" msgstr_en="WEP Keys" />
+  <message msgid="secure wep key1" msgstr="WEP Key 1 :" msgstr_en="WEP Key 1 :" />
+  <message msgid="secure wep key2" msgstr="WEP Key 2 :" msgstr_en="WEP Key 2 :" />
+  <message msgid="secure wep key3" msgstr="WEP Key 3 :" msgstr_en="WEP Key 3 :" />
+  <message msgid="secure wep key4" msgstr="WEP Key 4 :" msgstr_en="WEP Key 4 :" />
+  <message msgid="secure wpa" msgstr="WPA" msgstr_en="WPA" />
+  <message msgid="secure wpa algorithm" msgstr="WPA Algorithms" msgstr_en="WPA Algorithms" />
+  <message msgid="secure wpa pass phrase" msgstr="Pass Phrase" msgstr_en="Pass Phrase" />
+  <message msgid="secure wpa key renew interval" msgstr="Key Renewal Interval" msgstr_en="Key Renewal Interval" />
+  <message msgid="secure wpa pmk cache period" msgstr="PMK Cache Period" msgstr_en="PMK Cache Period" />
+  <message msgid="secure wpa preauth" msgstr="Pre-Authentication" msgstr_en="Pre-Authentication" />
+  <message msgid="secure wep" msgstr="WEP" msgstr_en="WEP" />
+  <message msgid="secure 8021x wep" msgstr="802.1x WEP" msgstr_en="802.1x WEP" />
+  <message msgid="secure radius" msgstr="Radius Server" msgstr_en="Radius Server" />
+  <message msgid="secure radius use internal radius server" msgstr="Use internal RADIUS Server" msgstr_en="Use internal RADIUS Server" />
+  <message msgid="secure radius ipaddr" msgstr="IP Address" msgstr_en="IP Address" />
+  <message msgid="secure radius port" msgstr="Port" msgstr_en="Port" />
+  <message msgid="secure radius shared secret" msgstr="Shared Secret" msgstr_en="Shared Secret" />
+  <message msgid="secure radius session timeout" msgstr="Session Timeout" msgstr_en="Session Timeout" />
+
+  <message msgid="radius title" msgstr="RADIUS Server Configuration" msgstr_en="RADIUS Server Configuration" />
+  <message msgid="radius enable" msgstr="Enable RADIUS Server" msgstr_en="Enable RADIUS Server" />
+  <message msgid="radius users profile" msgstr="Users Profile (up to 96 users)" msgstr_en="Users Profile (up to 96 users)" />
+  <message msgid="radius username" msgstr="Username" msgstr_en="Username" />
+  <message msgid="radius password" msgstr="Password" msgstr_en="Password" />
+  <message msgid="radius confirm password" msgstr="Confirm Password" msgstr_en="Confirm Password" />
+  <message msgid="radius configure" msgstr="Configure" msgstr_en="Configure" />
+  <message msgid="radius add" msgstr="Add" msgstr_en="Add" />
+  <message msgid="radius cancel" msgstr="Cancel" msgstr_en="Cancel" />
+  <message msgid="radius no" msgstr="NO." msgstr_en="NO." />
+  <message msgid="radius select" msgstr="Select" msgstr_en="Select" />
+  <message msgid="radius delete selected" msgstr="Delete Selected" msgstr_en="Delete Selected" />
+  <message msgid="radius delete all" msgstr="Delete All" msgstr_en="Delete All" />
+  <message msgid="radius authentication client" msgstr="Authentication Client (up to 16 clients)" msgstr_en="Authentication Client (up to 16 clients)" />
+  <message msgid="radius client IP" msgstr="Client IP" msgstr_en="Client IP" />
+  <message msgid="radius secret key" msgstr="Secret Key" msgstr_en="Secret Key" />
+  <message msgid="radius confirm secret key" msgstr="Confirm Secret Key" msgstr_en="Confirm Secret Key" />
+
+  <message msgid="access title" msgstr="Access Control" msgstr_en="Access Control" />
+  <message msgid="access policy" msgstr="Policy:" msgstr_en="Policy:" />
+  <message msgid="access disable" msgstr="Disable" msgstr_en="Disable" />
+  <message msgid="access active" msgstr="Activate MAC address filter" msgstr_en="Activate MAC address filter" />
+  <message msgid="access block" msgstr="Blocked MAC address filter" msgstr_en="Blocked MAC address filter" />
+  <message msgid="access macfilter" msgstr="MAC Address Filter" msgstr_en="MAC Address Filter" />
+  <message msgid="access index" msgstr="Index" msgstr_en="Index" />
+  <message msgid="access macaddress" msgstr="MAC Address" msgstr_en="MAC Address" />
+  <message msgid="access climac" msgstr="Client's MAC Address" msgstr_en="Client's MAC Address" />
+
+<message msgid="access limitentry" msgstr="Limit:256 entries" msgstr_en="Limit:256 entries" />
+  <message msgid="access limitentry_5g" msgstr="Limit:64 entries" msgstr_en="Limit:64 entries" />
+
+  <message msgid="wps title" msgstr="WPS (Wi-Fi Protected Setup)" msgstr_en="WPS (Wi-Fi Protected Setup)" />
+  <message msgid="wps enable" msgstr="Enable WPS" msgstr_en="Enable WPS" />
+  <message msgid="wps information" msgstr="Wi-Fi Protected Setup Information" msgstr_en="Wi-Fi Protected Setup Information" />
+  <message msgid="wps current status" msgstr="WPS Current Status" msgstr_en="WPS Current Status" />
+  <message msgid="wps configured" msgstr="WPS Configured" msgstr_en="WPS Configured" />
+  <message msgid="wps ssid" msgstr="WPS SSID" msgstr_en="WPS SSID" />
+  <message msgid="wps auth mode" msgstr="WPS Auth Mode" msgstr_en="WPS Auth Mode" />
+  <message msgid="wps encryp type" msgstr="WPS Encryp Type" msgstr_en="WPS Encryp Type" />
+  <message msgid="wps ap pin" msgstr="AP PIN" msgstr_en="AP PIN" />
+  <message msgid="wps pin generate" msgstr="Generate" msgstr_en="Generate" />
+  <message msgid="wps progress" msgstr="Device Configure" msgstr_en="Device Configure" />
+  <message msgid="wps pbc mode" msgstr="Configure via Push Button" msgstr_en="Configure via Push Button" />
+  <message msgid="wps pin mode" msgstr="Configure via Client PinCode" msgstr_en="Configure via Client PinCode" />
+  <message msgid="wps start pbc" msgstr="Start PBC" msgstr_en="Start PBC" />
+  <message msgid="wps start pin" msgstr="Start PIN" msgstr_en="Start PIN" />
+  <message msgid="wps status" msgstr="Status:" msgstr_en="Status:" />
+  <message msgid="wps note" msgstr="WPS can help your wireless client automatically connect to the Access point." msgstr_en="WPS can help your wireless client automatically connect to the Access point." />
+  <message msgid="wps note disable" msgstr="WPS is Disabled." msgstr_en="WPS is Disabled." />
+  <message msgid="wps note enable" msgstr="WPS is Enabled." msgstr_en="WPS is Enabled." />
+  <message msgid="wps note wait" msgstr="Waiting for WPS requests from wireless clients." msgstr_en="Waiting for WPS requests from wireless clients." />
+
+  <message msgid="wds title" msgstr="WDS Settings" msgstr_en="WDS Settings" />
+  <message msgid="wds mode" msgstr="WDS Mode" msgstr_en="WDS Mode" />
+  <message msgid="wds mode disable" msgstr="Disable" msgstr_en="Disable" />
+  <message msgid="wds mode bridge" msgstr="Bridge Mode" msgstr_en="Bridge Mode" />
+  <message msgid="wds mode repeater" msgstr="Repeater Mode" msgstr_en="Repeater Mode" />
+  <message msgid="wds phy mode" msgstr="Phy Mode" msgstr_en="Phy Mode" />
+  <message msgid="wds security" msgstr="Security" msgstr_en="Security" />
+  <message msgid="wds peer mac" msgstr="Peer MAC Address" msgstr_en="Peer MAC Address" />
+
+  <message msgid="scan ap title" msgstr="Access Point Discovery" msgstr_en="Access Point Discovery" />
+  <message msgid="scan ap discovery" msgstr="Access Point List" msgstr_en="Access Point List" />
+  <message msgid="station ssid" msgstr="SSID" msgstr_en="SSID" />
+  <message msgid="scan bssid" msgstr="BSSID" msgstr_en="BSSID" />
+  <message msgid="scan rssi" msgstr="RSSI" msgstr_en="RSSI" />
+  <message msgid="station channel" msgstr="Channel" msgstr_en="Channel" />
+  <message msgid="station encryp" msgstr="Encryption" msgstr_en="Encryption" />
+  <message msgid="station auth" msgstr="Authentication" msgstr_en="Authentication" />
+  <message msgid="scan rescan" msgstr="Scan" msgstr_en="Scan" />
+  <message msgid="scan scanning" msgstr="Scanning" msgstr_en="Scanning" />
+  <message msgid="san statistic" msgstr="Channel Statistics" msgstr_en="Channel Statistics" />
+  <message msgid="san str" msgstr="1.During the scanning process (about 5 seconds), no station is allowed to connect with the router." msgstr_en="1.During the scanning process (about 5 seconds), no station is allowed to connect with the router." />
+  <message msgid="scan ap mac" msgstr="AP's MAC Address" msgstr_en="AP's MAC Address" />
+  <message msgid="san ap ssid" msgstr="AP's SSID" msgstr_en="AP's SSID" />
+  <message msgid="scan wds" msgstr="WDS Settings" msgstr_en="WDS Settings" />
+  <message msgid="scan ur" msgstr="Universal Repeater" msgstr_en="Universal Repeater" />
+  <message msgid="station select" msgstr="Select" msgstr_en="Select" />
+  <message msgid="scan ap chart title" msgstr="AP Discovery Statistics" msgstr_en="AP Discovery Statistics" />
+  <message msgid="scan ap chart rec" msgstr="Recommended channels for usage:" msgstr_en="Recommended channels for usage:" />
+  <message msgid="scan ap chart compare" msgstr="AP number v.s. Channel" msgstr_en="AP number v.s. Channel" />
+  <message msgid="scan ap chart back" msgstr="Back" msgstr_en="Back" />
+  
+  <message msgid="wds status title" msgstr="WDS AP Status" msgstr_en="WDS AP Status" />
+  <message msgid="wds status list" msgstr="WDS AP List" msgstr_en="WDS AP List" />
+  <message msgid="wds status aid" msgstr="AID" msgstr_en="AID" />
+  <message msgid="wds status ssid" msgstr="MAC Address" msgstr_en="MAC Address" />
+  <message msgid="wds status phy mode" msgstr="802.11 Physical Mode" msgstr_en="802.11 Physical Mode" />
+  <message msgid="wds status power save" msgstr="Power Save" msgstr_en="Power Save" />
+  <message msgid="wds status bandwidth" msgstr="Bandwidth" msgstr_en="Bandwidth" />
+
+  <message msgid="scan title" msgstr="Station Site Survey" msgstr_en="Station Site Survey" />
+  <message msgid="scan site survey" msgstr="Site Survey" msgstr_en="Site Survey" />
+  <message msgid="scan connet" msgstr="Connect" msgstr_en="Connect" />
+  <message msgid="scan add profile" msgstr="Add Profile" msgstr_en="Add Profile" />
+
+  <message msgid="apcli title" msgstr="Universal Repeater" msgstr_en="Universal Repeater" />
+  <message msgid="apcli set" msgstr="Universal Repeater Parameters" msgstr_en="Universal Repeater Parameters" />
+  <message msgid="apcli mac" msgstr="MAC Address (Optional)" msgstr_en="MAC Address (Optional)" />
+  <message msgid="apcli mode" msgstr="Security Mode" msgstr_en="Security Mode" />
+  <message msgid="apcli ecn" msgstr="Encryption Type" msgstr_en="Encryption Type" />
+  <message msgid="apcli wepkey" msgstr="WEP Keys" msgstr_en="WEP Keys" />
+  <message msgid="apcli passphase" msgstr="Pass Phrase" msgstr_en="Pass Phrase" />
+  <message msgid="apcli text note" msgstr="If Channel is modified, the Channel setting of AP would also be changed." msgstr_en="If Channel is modified, the Channel setting of AP would also be changed." />
+  <message msgid="wan connection type" msgstr="Wan Connection Type" msgstr_en="Wan Connection Type" />
+  <message msgid="wan connection type dhcp" msgstr="DHCP" msgstr_en="DHCP" />
+  <message msgid="wan connection type static" msgstr="STATIC" msgstr_en="STATIC" />
+
+  <message msgid="wmm title" msgstr="WMM Configuration" msgstr_en="WMM Configuration" />
+  <message msgid="wmm set to default" msgstr="Set to Factory Default" msgstr_en="Set to Factory Default" />
+  <message msgid="wmm configuration" msgstr="WMM Configuration" msgstr_en="WMM Configuration" />
+  <message msgid="wmm capable" msgstr="WMM Capable" msgstr_en="WMM Capable" />
+  <message msgid="apds capable" msgstr="APSD Capable" msgstr_en="APSD Capable" />
+  <message msgid="wmm ap parameter" msgstr="WMM Parameters of Access Point" msgstr_en="WMM Parameters of Access Point" />
+  <message msgid="wmm sta parameter" msgstr="WMM Parameters of Station" msgstr_en="WMM Parameters of Station" />
+
+<message msgid="wmm clear msg" msgstr="Are you sure you want to set to factory default?" msgstr_en="Are you sure you want to set to factory default?" />
+
+  <message msgid="basic antenna" msgstr="Antenna :" msgstr_en="Antenna :" />
+  <message msgid="basic tx power" msgstr="Tx Power :" msgstr_en="Tx Power :" />
+  <message msgid="basic antenna note" msgstr="In 1T1R mode, only the antenna on the right side is used." msgstr_en="In 1T1R mode, only the antenna on the right side is used." />
+
+<message msgid="basic channel width" msgstr="Channel Width :" msgstr_en="Channel Width :" />
+  <message msgid="basic channel width auto" msgstr="Auto 20/40 MHZ" msgstr_en="Auto 20/40 MHZ" />
+  <message msgid="basic channel width 20" msgstr="20 MHZ" msgstr_en="20 MHZ" />
+
+  <message msgid="stalist title" msgstr="Station List" msgstr_en="Station List" />
+  <message msgid="stalist wireless network" msgstr="Wireless Network" msgstr_en="Wireless Network" />
+  <message msgid="stalist macaddr" msgstr="MAC Address" msgstr_en="MAC Address" />
+  <message msgid="stalist ssid" msgstr="SSID" msgstr_en="SSID" />
+  <message msgid="stalist auth" msgstr="Auth" msgstr_en="Auth" />
+  <message msgid="stalist encrypt" msgstr="Encrypt" msgstr_en="Encrypt" />
+  <message msgid="stalist refresh" msgstr="Refresh" msgstr_en="Refresh" />
+  <message msgid="stalist str1" msgstr="Add to" msgstr_en="Add to" />
+  <message msgid="stalist str2" msgstr="Access Control" msgstr_en="Access Control" />
+  <message msgid="stalist str3" msgstr="Client's MAC Address" msgstr_en="Client's MAC Address" />
+  <message msgid="stalist add" msgstr="Add" msgstr_en="Add" />
+
+  <message msgid="prof profile" msgstr="Profile" msgstr_en="Profile" />
+
+  <message msgid="addprof system config" msgstr="System Configuration" msgstr_en="System Configuration" />
+  <message msgid="addprof profile name" msgstr="Profile Name" msgstr_en="Profile Name" />
+  <message msgid="addprof adhoc" msgstr="802.11 Ad Hoc" msgstr_en="802.11 Ad Hoc" />
+  <message msgid="addprof infrastructure" msgstr="Infrastructure" msgstr_en="Infrastructure" />
+  <message msgid="addprof power save" msgstr="Power Saving Mode" msgstr_en="Power Saving Mode" />
+  <message msgid="addprof cam" msgstr="CAM (Constantly Awake Mode)" msgstr_en="CAM (Constantly Awake Mode)" />
+  <message msgid="addprof preamble type" msgstr="11B Preamble Type" msgstr_en="11B Preamble Type" />
+  <message msgid="addprof secure policy" msgstr="Security Policy" msgstr_en="Security Policy" />
+  <message msgid="addprof wep key length" msgstr="WEP Key Length" msgstr_en="WEP Key Length" />
+  <message msgid="addprof wep key entry method" msgstr="WEP Key Entry Method" msgstr_en="WEP Key Entry Method" />
+  <message msgid="addprof hex" msgstr="Hexadecimal" msgstr_en="Hexadecimal" />
+  <message msgid="addprof ascii" msgstr="Ascii Text" msgstr_en="Ascii Text" />
+  <message msgid="addprof 8021X Auth Type" msgstr="Authentication Type" msgstr_en="Authentication Type" />
+  <message msgid="addprof tunnel auth" msgstr="Tunnel Authentication" msgstr_en="Tunnel Authentication" />
+  <message msgid="addprof identity" msgstr="Identity" msgstr_en="Identity" />
+  <message msgid="addprof passwd" msgstr="Password" msgstr_en="Password" />
+  <message msgid="addprof client cert" msgstr="Client Certificate" msgstr_en="Client Certificate" />
+  <message msgid="addprof client cert path" msgstr="Client Certificate Path" msgstr_en="Client Certificate Path" />
+  <message msgid="addprof private key path" msgstr="Private Key Path" msgstr_en="Private Key Path" />
+  <message msgid="addprof private key passwd" msgstr="Private Key Password" msgstr_en="Private Key Password" />
+  <message msgid="addprof ca cert" msgstr="CA Certificate" msgstr_en="CA Certificate" />
+  <message msgid="addprof ca cert path" msgstr="CA Certificate Path" msgstr_en="CA Certificate Path" />
+
+  <message msgid="statistic title" msgstr="Station Statistics" msgstr_en="Station Statistics" />
+  <message msgid="statistic tx" msgstr="Transmit Statistics" msgstr_en="Transmit Statistics" />
+  <message msgid="statistic rx" msgstr="Receive Statistics" msgstr_en="Receive Statistics" />
+  <message msgid="statistic reset counter" msgstr="Reset Counters" msgstr_en="Reset Counters" />
+
+  <message msgid="stawps title" msgstr="Wi-Fi Protected Setup (STA)" msgstr_en="Wi-Fi Protected Setup (STA)" />
+  <message msgid="stawps scan" msgstr="WPS AP site survey" msgstr_en="WPS AP site survey" />
+  <message msgid="stawps refresh" msgstr="Refresh" msgstr_en="Refresh" />
+  <message msgid="stawps mode" msgstr="Mode" msgstr_en="Mode" />
+  <message msgid="stawps enrollee" msgstr="Enrollee" msgstr_en="Enrollee" />
+  <message msgid="stawps registrar" msgstr="Registrar" msgstr_en="Registrar" />
+  <message msgid="stawps pin start" msgstr="Start PIN" msgstr_en="Start PIN" />
+  <message msgid="stawps pbc start" msgstr="Start PBC" msgstr_en="Start PBC" />
+  <message msgid="stawps renew pin" msgstr="Renew PIN" msgstr_en="Renew PIN" />
+  <message msgid="stawps registrar set" msgstr=" Registrar Settings" msgstr_en=" Registrar Settings" />
+  <message msgid="stawps wep key type" msgstr="WEP Key Type" msgstr_en="WEP Key Type" />
+  <message msgid="stawps wep key index" msgstr="WEP Key Index" msgstr_en="WEP Key Index" />
+  <message msgid="stawps key" msgstr="Key" msgstr_en="Key" />
+  <message msgid="stawps submit" msgstr="Submit" msgstr_en="Submit" />
+
+  <message msgid="limit title" msgstr="Bandwidth Management" msgstr_en="Bandwidth Management" />
+  <message msgid="limit subtitle" msgstr="Per Station Bandwidth Limit" msgstr_en="Per Station Bandwidth Limit" />
+  <message msgid="limit upload" msgstr="Upload Limit" msgstr_en="Upload Limit" />
+  <message msgid="limit download" msgstr="Download Limit" msgstr_en="Download Limit" />
+  <message msgid="limit auto" msgstr="Auto Adjustment" msgstr_en="Auto Adjustment" />
+  <message msgid="limit user" msgstr="User defined" msgstr_en="User defined" />
+  <message msgid="limit note unit" msgstr="(Default unit : K)" msgstr_en="(Default unit : K)" />
+  <message msgid="limit note1" msgstr="1. Download : Traffic going to any station. Upload : Traffic being sent from a wireless station." msgstr_en="1. Download : Traffic going to any station. Upload : Traffic being sent from a wireless station." />
+  <message msgid="limit note2" msgstr="2. Allow auto adjustment could make the best utilization of available bandwidth." msgstr_en="2. Allow auto adjustment could make the best utilization of available bandwidth." />
+  <message msgid="limit error" msgstr="Upload/Download limit should be larger than 64K and smaller than 100M" msgstr_en="Upload/Download limit should be larger than 64K and smaller than 100M" />
+  <message msgid="san str2" msgstr="2.If you select/disselect 'Show List in order of RSSI values from 100% to 0%',you should click Scan Button again to make this function run OK." msgstr_en="2.If you select/disselect 'Show List in order of RSSI values from 100% to 0%',you should click Scan Button again to make this function run OK." />	
+  <message msgid="san check" msgstr="Show List in order of RSSI values from 100% to 0%" msgstr_en="Show List in order of RSSI values from 100% to 0%" /> 
+</po>

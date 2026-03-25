@@ -1,0 +1,100 @@
+<po>
+  <message msgid="inet apply" msgstr="OK" msgstr_en="OK" />
+  <message msgid="inet cancel" msgstr="Cancel" msgstr_en="Cancel" />
+  <message msgid="inet enable" msgstr="Enable" msgstr_en="Enable" />
+  <message msgid="inet disable" msgstr="Disable" msgstr_en="Disable" />
+
+  <message msgid="parent lan" msgstr="LAN" msgstr_en="LAN" />
+  <message msgid="parent cam" msgstr="Central AP Management" msgstr_en="Central AP Management" />
+  <message msgid="cam setup" msgstr="Vigor AP Management" msgstr_en="Vigor AP Management" />
+  <message msgid="parent diagonostics" msgstr="Diagnostics" msgstr_en="Diagnostics" />
+
+  <message msgid="inet mac" msgstr="MAC Address" msgstr_en="MAC Address" />
+  <message msgid="inet mac clone" msgstr="MAC Address Clone" msgstr_en="MAC Address Clone" />
+  <message msgid="inet lan" msgstr="For NAT Usage" msgstr_en="For NAT Usage" />
+  <message msgid="inet ip" msgstr="IP Address" msgstr_en="IP Address" />
+  <message msgid="inet netmask" msgstr="Subnet Mask" msgstr_en="Subnet Mask" />
+  <message msgid="inet gateway" msgstr="Gateway Address" msgstr_en="Gateway Address" />
+  <message msgid="inet lan2" msgstr="For IP Routing Usage" msgstr_en="For IP Routing Usage" />
+  <message msgid="inet lan2 ip" msgstr="2nd IP Address" msgstr_en="2nd IP Address" />
+  <message msgid="inet lan2 netmask" msgstr="2nd Subnet Mask" msgstr_en="2nd Subnet Mask" />
+  <message msgid="inet gateway" msgstr="Default Gateway" msgstr_en="Default Gateway" />
+  <message msgid="inet pri dns" msgstr="Primary DNS Server" msgstr_en="Primary DNS Server" />
+  <message msgid="inet sec dns" msgstr="Secondary DNS Server" msgstr_en="Secondary DNS Server" />
+  <message msgid="inet server" msgstr="Server IP" msgstr_en="Server IP" />
+  <message msgid="inet user" msgstr="Username" msgstr_en="Username" />
+  <message msgid="inet password" msgstr="Password" msgstr_en="Password" />
+  <message msgid="inet pass2" msgstr="Confirm Password" msgstr_en="Confirm Password" />
+  <message msgid="inet hostname" msgstr="Router Name" msgstr_en="Router Name" />
+  <message msgid="inet devicename" msgstr="Device Name" msgstr_en="Device Name" />
+  <message msgid="inet defaultstr" msgstr="default" msgstr_en="default" />
+
+  <message msgid="lan type" msgstr="LAN" msgstr_en="LAN" />
+  <message msgid="lan1 type" msgstr="LAN-A" msgstr_en="LAN-A" />
+  <message msgid="lan2 type" msgstr="LAN-B" msgstr_en="LAN-B" />
+  <message msgid="lan title" msgstr="General Setup" msgstr_en="General Setup" />
+  <message msgid="lan apm" msgstr="VigorAP Management" msgstr_en="VigorAP Management" />
+  <message msgid="lan apmc enable" msgstr="Enable AP Management" msgstr_en="Enable AP Management" />
+  <message msgid="lan apmc dhcpc enable" msgstr="Enable DHCP Client" msgstr_en="Enable DHCP Client" />
+  <message msgid="lan apmc funlst" msgstr="Function Support List" msgstr_en="Function Support List" />
+  <message msgid="lan apmc autoprov enable" msgstr="Enable Auto Provision" msgstr_en="Enable Auto Provision" />
+  <message msgid="lan setup" msgstr="Ethernet TCP / IP and DHCP Setup" msgstr_en="Ethernet TCP / IP and DHCP Setup" />
+  <message msgid="lan network setup" msgstr="IP Network Configuration" msgstr_en="IP Network Configuration" />
+  <message msgid="lan dhcp setup" msgstr="DHCP Server Configuration" msgstr_en="DHCP Server Configuration" />
+  <message msgid="lan dhcp enable" msgstr="Enable Server" msgstr_en="Enable Server" />
+  <message msgid="lan dhcp disable" msgstr="Disable Server" msgstr_en="Disable Server" />
+  <message msgid="lan dhcp relay" msgstr="Relay Agent" msgstr_en="Relay Agent" />
+  <message msgid="lan dhcp start" msgstr="Start IP Address" msgstr_en="Start IP Address" />
+  <message msgid="lan dhcp end" msgstr="End IP Address" msgstr_en="End IP Address" />
+  <message msgid="lan dhcp lease" msgstr="Lease Time" msgstr_en="Lease Time" />
+  <message msgid="lan dns" msgstr="DNS Server IP Address" msgstr_en="DNS Server IP Address" />
+  <message msgid="lan dns manual" msgstr="DNS Manual Setting" msgstr_en="DNS Manual Setting" />
+  <message msgid="lan pppoer" msgstr="PPPoE Passthrough" msgstr_en="PPPoE Passthrough" />
+  <message msgid="lan dhcp relay server" msgstr="DHCP Server IP Address for Relay Agent" msgstr_en="DHCP Server IP Address for Relay Agent" />
+
+  <message msgid="routing title" msgstr="Static Route" msgstr_en="Static Route" />
+  <message msgid="routing add rule" msgstr="Add a routing rule" msgstr_en="Add a routing rule" />
+  <message msgid="routing routing dest" msgstr="Destination" msgstr_en="Destination" />
+  <message msgid="routing range" msgstr="Range" msgstr_en="Range" />
+  <message msgid="routing netmask" msgstr="Netmask" msgstr_en="Netmask" />
+  <message msgid="routing gateway" msgstr="Gateway" msgstr_en="Gateway" />
+  <message msgid="routing interface" msgstr="Interface" msgstr_en="Interface" />
+  <message msgid="routing comment" msgstr="Comment" msgstr_en="Comment" />
+  <message msgid="routing host" msgstr="Host" msgstr_en="Host" />
+  <message msgid="routing net" msgstr="Net" msgstr_en="Net" />
+  <message msgid="routing LAN" msgstr="LAN" msgstr_en="LAN" />
+  <message msgid="routing WAN" msgstr="WAN" msgstr_en="WAN" />
+  <message msgid="routing submit" msgstr="OK" msgstr_en="OK" />
+  <message msgid="routing reset" msgstr="Cancel" msgstr_en="Cancel" />
+  <message msgid="routing del title" msgstr="Current Routing table in the system" msgstr_en="Current Routing table in the system" />
+  <message msgid="routing Number" msgstr="No." msgstr_en="No." />
+  <message msgid="routing del dest" msgstr="Destination" msgstr_en="Destination" />
+  <message msgid="routing del netmask" msgstr="Netmask" msgstr_en="Netmask" />
+  <message msgid="routing del gateway" msgstr="Gateway" msgstr_en="Gateway" />
+  <message msgid="routing del flags" msgstr="Flags" msgstr_en="Flags" />
+  <message msgid="routing del metric" msgstr="Metric" msgstr_en="Metric" />
+  <message msgid="routing del ref" msgstr="Ref" msgstr_en="Ref" />
+  <message msgid="routing del use" msgstr="Use" msgstr_en="Use" />
+  <message msgid="routing del interface" msgstr="Interface" msgstr_en="Interface" />
+  <message msgid="routing del comment" msgstr="Comment" msgstr_en="Comment" />
+  <message msgid="routing del" msgstr="Delete" msgstr_en="Delete" />
+  <message msgid="routing del reset" msgstr="Cancel" msgstr_en="Cancel" />
+
+  <message msgid="routing dynamic Title" msgstr="Dynamic Routing Settings" msgstr_en="Dynamic Routing Settings" />
+  <message msgid="routing dynamic Title2" msgstr="Dynamic Routing Protocol" msgstr_en="Dynamic Routing Protocol" />
+  <message msgid="routing dynamic rip disable" msgstr="Disable" msgstr_en="Disable" />
+  <message msgid="routing dynamic rip enable" msgstr="Enable" msgstr_en="Enable" />
+  <message msgid="routing dynamic rip apply" msgstr="OK" msgstr_en="OK" />
+  <message msgid="routing dynamic rip reset" msgstr="Cancel" msgstr_en="Cancel" />
+
+  <message msgid="dhcp title" msgstr="DHCP Table List" msgstr_en="DHCP Table List" />
+  <message msgid="dhcp table" msgstr="DHCP Table" msgstr_en="DHCP Table" />
+  <message msgid="dhcp refresh" msgstr="Refresh" msgstr_en="Refresh" />
+  <message msgid="dhcp hostname" msgstr="Host Name (optional)" msgstr_en="Host Name (optional)" />
+  <message msgid="dhcp expire" msgstr="Expire Time" msgstr_en="Expire Time" />
+  
+  <message msgid="lan management vlan" msgstr="Enable Management VLAN" msgstr_en="Enable Management VLAN" />
+  <message msgid="lan management vlan id" msgstr="VLAN ID" msgstr_en="VLAN ID" />
+  
+  <message msgid="apcli ip config" msgstr="Universal Repeater IP Configuration" msgstr_en="Universal Repeater IP Configuration" />
+</po>

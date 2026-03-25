@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #D43039 url("/graphics/menuback.jpg") repeat-y scroll left center;
+  margin: 0pt;
+}
+
+ul {
+  padding: 0pt;
+  margin: 0pt;
+  list-style: none;
+}
+
+ul.level0 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+ul.level1 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+li {
+  background: transparent url("./img/menu_c.gif") no-repeat scroll 3px 3px;
+  padding-left: 15px; 
+}
+
+li.link {
+  background: transparent url("./img/menu_l.gif") no-repeat scroll 3px 3px;
+}
+
+li.clicked_link {
+  background: #620615 url("./img/menu_l.gif") no-repeat scroll 3px 3px;
+}
+
+li.support {
+  background: transparent none repeat scroll 0 0;
+}
+
+a         { text-decoration: none; }
+a:hover   { text-decoration: underline; }
+a:link    { color: white }
+a:visited { color: white }
