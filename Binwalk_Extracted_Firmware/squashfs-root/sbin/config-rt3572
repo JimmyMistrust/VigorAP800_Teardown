@@ -1,0 +1,273 @@
+#!/bin/sh
+
+BSSID_NUM=`nvram_get 2860 BssidNum_3572`
+RADIO_OFF=`nvram_get 2860 RadioOff_3572`
+OPMODE=`nvram_get 2860 OperationMode`
+AP800MODE=`nvram_get 2860 800_ap_mode`
+DEV_PATH="/tmp/rt3572_info"
+MODULE_NAME="rt3572_ap"
+
+set_rt3572_module()
+{
+  
+  MODULE_EXIST=$(lsmod | grep $MODULE_NAME)
+  if [ "$MODULE_EXIST" = "" ]; then
+    insmod $MODULE_NAME
+  fi
+}
+
+process_vlan5()
+{
+  VLAN5=`nvram_get 2860 SSID_VLAN5`
+  if [ "$VLAN5" == "1" ]; then
+    #echo "config-rt3572.sh: brctl addif br0 rau0"
+    brctl addif br0 rau0
+  elif [ "$VLAN5" == "2" ]; then
+    #echo "config-rt3572.sh: brctl addif br1 rau0"
+    brctl addif br1 rau0
+  fi
+}
+
+process_vlan5_remove()
+{
+  VLAN5=`nvram_get 2860 SSID_VLAN5`
+  if [ "$VLAN5" == "1" ]; then
+    #echo "config-rt3572.sh: brctl delif br0 rau0"
+    brctl delif br0 rau0
+  elif [ "$VLAN5" == "2" ]; then
+    #echo "config-rt3572.sh: brctl delif br1 rau0"
+    brctl delif br1 rau0
+  fi
+}
+
+process_vlan6()
+{
+  VLAN6=`nvram_get 2860 SSID_VLAN6`
+  if [ "$VLAN6" == "1" ]; then
+    #echo "config-rt3572.sh: brctl addif br0 rau1"
+    brctl addif br0 rau1
+  elif [ "$VLAN6" == "2" ]; then
+    #echo "config-rt3572.sh: brctl addif br1 rau1"
+    brctl addif br1 rau1
+  fi
+}
+
+process_vlan6_remove()
+{
+  VLAN6=`nvram_get 2860 SSID_VLAN6`
+  if [ "$VLAN6" == "1" ]; then
+    #echo "config-rt3572.sh: brctl delif br0 rau1"
+    brctl delif br0 rau1
+  elif [ "$VLAN6" == "2" ]; then
+    #echo "config-rt3572.sh: brctl delif br1 rau1"
+    brctl delif br1 rau1
+  fi
+}
+
+process_vlan7()
+{
+  VLAN7=`nvram_get 2860 SSID_VLAN7`
+  if [ "$VLAN7" == "1" ]; then
+    #echo "config-rt3572.sh: brctl addif br0 rau2"
+    brctl addif br0 rau2
+  elif [ "$VLAN7" == "2" ]; then
+    #echo "config-rt3572.sh: brctl addif br1 rau2"
+    brctl addif br1 rau2
+  fi
+}
+
+process_vlan7_remove()
+{
+  VLAN7=`nvram_get 2860 SSID_VLAN7`
+  if [ "$VLAN7" == "1" ]; then
+    #echo "config-rt3572.sh: brctl delif br0 rau2"
+    brctl delif br0 rau2
+  elif [ "$VLAN7" == "2" ]; then
+    #echo "config-rt3572.sh: brctl addif br1 rau2"
+    brctl delif br1 rau2
+  fi
+}
+
+one_lan()
+{
+  brctl addif br0 rau0
+  if [ "$BSSID_NUM" = "2" ]; then
+    #echo "config-rt3572.sh: brctl addif br0 rau1"
+    brctl addif br0 rau1
+  elif [ "$BSSID_NUM" = "3" ]; then
+    #echo "config-rt3572.sh: brctl addif br0 rau1"
+    brctl addif br0 rau1
+    #echo "config-rt3572.sh: brctl addif br0 rau2"
+    brctl addif br0 rau2
+  fi
+}
+
+one_lan_remove()
+{
+  brctl delif br0 rau0
+  if [ "$BSSID_NUM" = "2" ]; then
+    #echo "config-rt3572.sh: brctl addif br0 rau1"
+    brctl delif br0 rau1
+  elif [ "$BSSID_NUM" = "3" ]; then
+    #echo "config-rt3572.sh: brctl addif br0 rau1"
+    brctl delif br0 rau1
+    #echo "config-rt3572.sh: brctl addif br0 rau2"
+    brctl delif br0 rau2
+  fi
+}
+
+two_lan()
+{
+  process_vlan5
+  
+  if [ "$BSSID_NUM" = "2" ]; then
+    process_vlan6
+  elif [ "$BSSID_NUM" = "3" ]; then
+    process_vlan6
+    process_vlan7
+  fi
+}
+
+two_lan_remove()
+{
+  process_vlan5_remove
+  
+  if [ "$BSSID_NUM" = "2" ]; then
+    process_vlan6_remove
+  elif [ "$BSSID_NUM" = "3" ]; then
+    process_vlan6_remove
+    process_vlan7_remove
+  fi
+}
+
+config_interface_down()
+{
+  ifconfig rau0 down
+
+  sleep 1
+  if [ "$BSSID_NUM" = "2" ]; then
+    ifconfig rau1 down
+  elif [ "$BSSID_NUM" = "3" ]; then
+    ifconfig rau1 down
+    sleep 1
+    ifconfig rau2 down
+  fi
+}
+
+config_interface_up()
+{
+  sleep 1
+  ifconfig rau0 up
+  sleep 1
+  if [ "$RADIO_OFF" = "1" ]; then
+    iwpriv rau0 set RadioOn=0
+  fi
+
+  sleep 1
+  if [ "$BSSID_NUM" = "2" ]; then
+    ifconfig rau1 up
+  elif [ "$BSSID_NUM" = "3" ]; then
+    ifconfig rau1 up
+    sleep 1
+    ifconfig rau2 up
+  fi
+}
+
+#
+# AP800 Operation Mode:
+# 0 = Bridge Mode
+# 1 = Gateway Mode
+# 2 = Ethernet Converter Mode
+# 3 = AP Client
+#
+config_vlan()
+{
+  if [ "$OPMODE" = "2" ]; then
+    one_lan
+  elif [ "$OPMODE" = "0" ]; then
+    if [ "$AP800MODE" = "1" ] || [ "$AP800MODE" = "2" ]; then
+      one_lan
+    else
+      WL_VLAN=`nvram_get 2860 WL_VLAN`
+      if [ "$WL_VLAN" = "1" ]; then
+        two_lan
+      else
+        one_lan
+      fi
+    fi
+  elif [ "$OPMODE" = "3" ]; then
+    WL_VLAN=`nvram_get 2860 WL_VLAN`
+    if [ "$WL_VLAN" = "1" ]; then
+      two_lan
+    else
+      one_lan
+    fi
+  fi 
+}
+
+remove_vlan()
+{
+  if [ "$OPMODE" = "2" ]; then
+    one_lan_remove
+  elif [ "$OPMODE" = "0" ]; then
+    if [ "$AP800MODE" = "1" ] || [ "$AP800MODE" = "2" ]; then
+      one_lan_remove
+    else
+      WL_VLAN=`nvram_get 2860 WL_VLAN`
+      if [ "$WL_VLAN" = "1" ]; then
+        two_lan_remove
+      else
+        one_lan_remove
+      fi
+    fi
+  elif [ "$OPMODE" = "3" ]; then
+    WL_VLAN=`nvram_get 2860 WL_VLAN`
+    if [ "$WL_VLAN" = "1" ]; then
+      two_lan_remove
+    else
+      one_lan_remove
+    fi
+  fi 
+}
+
+if [ "$1" = "install" ]; then
+  echo "---> install rt3572_ap"
+  set_rt3572_module
+  echo "<--- install rt3572_ap"
+  exit
+fi
+
+DEV_EXIST=$(cat $DEV_PATH)
+if [ "$DEV_EXIST" != "1" ]; then
+  exit
+fi
+
+if [ "$1" = "vlan" ]; then
+  echo "config-rt3572.sh: config vlan"
+  config_vlan
+  exit
+elif [ "$1" = "remove_vlan" ]; then
+  echo "config-rt3572.sh: remove vlan"
+  remove_vlan
+  exit
+fi
+
+#set_rt3572_module
+
+# generate config file
+# ralink_init make_wireless_config rt3572
+
+sleep 3
+
+# configure interface
+if [ "$1" != "nodown" ]; then 
+  config_interface_down
+fi
+
+config_interface_up
+
+#configure vlan group LAN-A or LAN-B
+config_vlan
+
+#start IEEE802.1x daemon
+rt3572 "80211x"

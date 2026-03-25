@@ -1,0 +1,126 @@
+#!/bin/sh
+
+cmd="$1"
+bssid_num=`nvram_get 2860 BssidNum_3572`
+radio_off=`nvram_get 2860 RadioOff_3572`
+total_wif="2 1 0"
+dbg_path="/tmp/rt3572_dbg"
+dot11x_app="rt3572apd"
+dot11x_app_opt="-u"
+
+vifs="0"
+if [ "$bssid_num" = "2" ]; then
+  vifs="0 1"
+elif [ "$bssid_num" = "3" ]; then
+  vifs="0 1 2"
+fi
+
+getNthvalue()
+{
+  if [ "$1" = "0" ]; then
+    res=$(echo $2 | awk 'FS=";" {print $1}')
+  elif [ "$1" = "1" ]; then
+    res=$(echo $2 | awk 'FS=";" {print $2}')
+  elif [ "$1" = "2" ]; then
+    res=$(echo $2 | awk 'FS=";" {print $3}')
+  fi
+}
+
+if [ "$2" = "dbg" ] && [ -f $dbg_path ]; then
+  rm $dbg_path
+  if [ "$cmd" = "ac" ]; then
+    echo "---> RT3572: Access Control" >> $dbg_path
+  fi
+fi 
+
+# Support cmd:
+# 1. General Setup
+# 2. Security
+# 3. Access Control
+# 4. 802.1x daemon
+if [ "$cmd" = "gs" ] || [ "$cmd" = "se" ]; then
+  if [ "$cmd" = "gs" ]; then 
+    echo "---> RT3572: General Setup"
+  elif [ "$cmd" = "se" ]; then
+    echo "---> RT3572: Security"
+  fi
+  
+  for vif in $total_wif; do
+    sleep 1
+    ifconfig "rau$vif" down
+  done
+  
+  #generate config
+  ralink_init make_wireless_config rt3572
+  
+  for vif in $vifs; do
+    sleep 1
+    ifconfig "rau$vif" up
+  done
+  
+  #radio
+  if [ "$radio_off" = "1" ]; then
+    iwpriv rau0 set RadioOn=0
+  fi
+  
+  #config vlan
+  if [ "$cmd" = "gs" ]; then 
+    sleep 1
+    config-rt3572 vlan &
+  fi
+  
+  if [ "$cmd" = "gs" ]; then 
+    echo "<--- RT3572: General Setup"
+  elif [ "$cmd" = "se" ]; then
+    echo "<--- RT3572: Security"
+  fi
+    
+elif [ "$cmd" = "ac" ]; then
+  echo "---> RT3572: Access Control"
+  for vif in $vifs; do
+    ifname="rau$vif"
+    accesspolicy=$(nvram_get 2860 AccessPolicy"$vif"_3572)
+    accesslist=$(nvram_get 2860 AccessControlList"$vif"_3572)
+    iwpriv "$ifname" set AccessPolicy=$accesspolicy
+    iwpriv "$ifname" set ACLClearAll=1
+    iwpriv "$ifname" set ACLAddEntry=$accesslist
+    
+    sleep 1  
+    #debug
+    if [ "$2" = "dbg" ]; then
+      idx=$(expr $vif + 1)
+      echo "SSID$idx:" >> $dbg_path
+      echo "AccessPolicy: $accesspolicy" >> $dbg_path
+      echo "AccessControlList: $accesslist" >> $dbg_path
+    fi
+  done
+  echo "<--- RT3572: Access Control"
+elif [ "$cmd" = "80211x" ]; then
+  echo "---> RT3572: IEEE80211X"
+  authmode=`nvram_get 2860 AuthMode_3572`
+  ieee80211x=`nvram_get 2860 IEEE8021X_3572`
+  apd_flag="0"
+  for vif in $vifs; do
+    getNthvalue $vif $authmode
+    auth_res=$res
+    case "$auth_res" in
+    WPA|WPA2|WPA1WPA2)
+      apd_flag="1"
+    ;;
+    esac
+    
+    getNthvalue $vif $ieee80211x
+    dot11x_res=$res
+    if [ "$dot11x_res" = "1" ]; then
+      apd_flag="1"
+    fi
+  done
+  
+  if [ "$apd_flag" = "1" ]; then
+    killall -q $dot11x_app
+    $dot11x_app $dot11x_app_opt
+  fi
+  echo "<--- RT3572: IEEE80211X"
+else
+  echo "RT3572: cmd error !!!"
+fi
