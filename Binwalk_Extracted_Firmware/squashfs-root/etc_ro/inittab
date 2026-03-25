@@ -1,0 +1,2 @@
+::sysinit:/etc_ro/rcS
+ttyS1::respawn:/sbin/getty 115200 ttyS1
