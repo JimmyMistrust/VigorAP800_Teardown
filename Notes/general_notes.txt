@@ -1,0 +1,92 @@
+NOTES:
+
+Order of UART pins (for the AP board, oriented with antennas on top):
+	Vcc (3.3V) | Rx | Tx | Ground
+
+Telnet notes:
+	
+
+Notes from firmware binwalk:
+	Folder name in /home is rossi, adding it to telnet bruteforce attack
+	Performing telnet bruteforce for names: rossi, root, admin
+		No luck with any of the others however admin did yield the known password so the method is sound.
+
+	Looking into the /etc_ro/web/adm/admpwd.asp some more, it seems like there is a simple method for the passwd handling.
+	
+	There is a file /etc_ro/serverkey.pem:
+		-----BEGIN RSA PRIVATE KEY-----
+		MIIEpAIBAAKCAQEAkxRpNEHR38MXhjCpLrRdP1Q55lZo2ytnCmuBGK8GNfp7j3VD
+		89TNXFWUY8fmokUiNefQjX1WCLd1EdqJxbfLGR6+1Agtr/KPc60VWouy8xdCgnba
+		+jf0QeQOjlO7JlnvnEm69IwJYqyFUTkpP9/Bjq3uXDPXJgryijneX1pQQY1nG5mH
+		QctYOrtUmqRO8XY2rKxKYe6XLVv/ExRQlbCiLSgALinMFfW/RWtY/FGBDSQpBQmX
+		NGN6yO4k1xi5GCJ/e8MZKxtE9I86BqLoKZKOtKtc6b+dGhyMV9rrQ9sZuk4vQHgb
+		6Sg89X2s+Sjnc7ovs/uxzW5C64S7xC9tDcwcxwIDAQABAoIBABYadikFTz4aepmP
+		DI3ZSz4uMTldeQqe/jBBsbf87akFCLapf9nP/EDJF7DbJNz0GM0TFnN9B4Xt1Ckn
+		t5bAJUSUK0eAJyWPBWHz/AaMggsoTrV+mTALYqjYVhurl6+OyoSpS/BebzamCK8J
+		MRrJTLRdjTnMDKRJ9uMxCSs5TmBbXnVKIMTrfUegLbB5rB80zZmjGXA1gEltIR9x
+		OJwbRcFxQEy1vkYpkCR7Ixvrl0vmK3Rvz9nbOQPxwLJOvwcgnfOP+SqMM1wYQuhu
+		twocZ1fp/3VM8CZP0FJ2F7L0xAtLefH1E4V7bBuvcqfdkBqIZSSYfREkjbdntoWq
+		G0IfjzECgYEAw65hCsAgjMBPCeEIpQWMDulNACuscjoOuQb/kV+ZCJBixLrTB3NC
+		or/XdJ3giACtr+Ten0uZ6pckA7AnWMQu2GVskUwnGNH80eDRBqxifXGUHw9+tv2O
+		ZWPUe5jJjg6xUuYDCecO44JNMhnxZqtm0KNXtY9NNl4+M3yEd/0Neq8CgYEAwGrJ
+		wb/O+J/Jzf7/pC4r5TYBxFe2WAcLmjItVZ8Ni2bjSUeRBIcMQfnPD8Zd93n0/tCz
+		rm/rneNgUsvT5F+AbQqXY5kM626cGhmqSDCaNXzCXdDILZWabh0OdrX/0Zas3art
+		8u7DF0vZKY8uJYU54ZLSDYLjm0BuOYn1UuRupWkCgYEArpMP+GtXnrqiyQl+kNrW
+		DSeOjqxn+LBbGi9oKeXDvaQyuZiDVI470L6eFWgUPMF+MwJYqnzkICoe8ztgnwzH
+		Tj+OEEKETtxoVUXgtbdtVsTRhLRqNA8ZztK1al7w0k/BW1fhNiBxY/+Hpz8F4rbf
+		zxsq0Mu78tk5XO2lsPaN4/kCgYEAio2awDf0uhSdRQcEX92bYA5WkWIzfAl+skbF
+		XC0OnL22ljLBWsg/7FYMYqiNS0F3R/FSIR6YQ/XRi20YJA8cs+f3gRFZO0JHh4fJ
+		lPfiYvd2IgXPzvs122py2spM7keYLHoDo3WH54OHWSSvrvbS6fpF5NLGQCnR9P7B
+		NzIj9lkCgYAUw2aMjfCKnDBA0DQQPbK7UsreaVsNDE6M003sAkucqXwP5w83ArsP
+		7F5KU5g3d2kG9rPBc3FtGUbi9Q8x1PwjXh4erKtvXIYi1f8UoXzZV+Y90813WZ8J
+		9WWXjBxQMnmOrmrQ2vIYZh1So3tWJ/PZ3toLHmAjVB9CTlNitNlLAw==
+		-----END RSA PRIVATE KEY-----
+
+	And /etc_ro/servercert.pem:
+		-----BEGIN CERTIFICATE-----
+		MIIDaTCCAlGgAwIBAgIBATANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQGEwJUVzEQ
+		MA4GA1UECBMHSHNpbkNodTEOMAwGA1UEBxMFSHVLb3UxFjAUBgNVBAoTDURyYXlU
+		ZWsgQ29ycC4xGDAWBgNVBAsTD0RyYXlUZWsgU3VwcG9ydDEVMBMGA1UEAxMMVmln
+		b3IgUm91dGVyMB4XDTE0MDUxNDA2MDUwMFoXDTM5MDUxNDA2MDUwMFoweDELMAkG
+		A1UEBhMCVFcxEDAOBgNVBAgTB0hzaW5DaHUxDjAMBgNVBAcTBUh1S291MRYwFAYD
+		VQQKEw1EcmF5VGVrIENvcnAuMRgwFgYDVQQLEw9EcmF5VGVrIFN1cHBvcnQxFTAT
+		BgNVBAMTDFZpZ29yIFJvdXRlcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+		ggEBAJMUaTRB0d/DF4YwqS60XT9UOeZWaNsrZwprgRivBjX6e491Q/PUzVxVlGPH
+		5qJFIjXn0I19Vgi3dRHaicW3yxkevtQILa/yj3OtFVqLsvMXQoJ22vo39EHkDo5T
+		uyZZ75xJuvSMCWKshVE5KT/fwY6t7lwz1yYK8oo53l9aUEGNZxuZh0HLWDq7VJqk
+		TvF2NqysSmHuly1b/xMUUJWwoi0oAC4pzBX1v0VrWPxRgQ0kKQUJlzRjesjuJNcY
+		uRgif3vDGSsbRPSPOgai6CmSjrSrXOm/nRocjFfa60PbGbpOL0B4G+koPPV9rPko
+		53O6L7P7sc1uQuuEu8QvbQ3MHMcCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAEg4n
+		m/P7y+jkA9c2flwRJCAx9eCK6l4V/VK3ZKLHsyhFd9buLM1/P+69VDpXfYo51oxZ
+		wqUifoanbcvTD1nLQReHCEs25hEubJGT/M5oqiDr7ubBgdgSETQjczavxwkUIe8v
+		j6z7Ad5H355g4bkKrBSHCnOIrNRPm9i22NRyEurIv01Y5LdIXKEVw6gtdWGKDfOA
+		dJJyS2bUiD4u2jbl+0xBKQKOAtbsQryKrY+TeXBvjFEl1APBAzFZkC4jnu6fyG8g
+		HjaxcayxLxHNwjAphu4/nMNt/YCNmDrx95VikIn6W8LadtP1qfAD8YXCJ6uo1VuM
+		e+teFGQTJ0udsxQsTA==
+		-----END CERTIFICATE-----
+
+	In usr/share/fr_config found the files clients.conf and eap.conf which contained the following:
+		client 127.0.0.1 {
+		        secret          = bruce
+		        shortname       = localhost
+		        nastype     = other     # localhost isn't usually a NAS...
+		}
+
+		tls {
+                        private_key_password = whatever
+                        private_key_file = ${raddbdir}/certs/cert-srv.pem
+                        certificate_file = ${raddbdir}/certs/cert-srv.pem
+                        CA_file = ${raddbdir}/certs/demoCA/cacert.pem
+
+                        dh_file = ${raddbdir}/certs/dh
+                        random_file = ${raddbdir}/certs/random
+                }
+
+Some chip labels:
+	Label1		Label2		Other Info	Chip Purpose
+	T132881		MX29LV320EBTI-70G	3L831800	Parallel Flash
+	TPS23754	3ATG4		CFJS		POE
+	54231		42M		A5GF		Voltage Converter
+	Qin		1415		HT1512S 	Cover For Inductor
+	1303m		LF-H90S-C			Unknown
+

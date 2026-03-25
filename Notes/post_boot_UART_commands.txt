@@ -1,0 +1,40 @@
+AP800 login: admin                                                                                                                                                                                                
+Password: admin                                                                                                                                                                                                       
+                                                                                                                                                                                                                  
+Welcome to AP800!!!                                                                                                                                                                                               
+Enter 'help' for a list of built-in commands                                                                                                                                                                      
+AP800#help                                                                                                                                                                                                        
+help           sys ver        ping           tr069_client                                                                                                                                                         
+exit           reboot
+
+AP800#sys ver                                                                                                                                                                                                     
+Router Model: VigorAP800    Version: 1.1.6.2                                                                                                                                                                      
+Firmware Build Date/Time: Thu Oct 19 11:04:24 CST 2017                                                                                                                                                            
+Revision: r7661                                                                                                                                                                                                   
+BootLoader Version: 1.0.9                                                                                                                                                                                         
+Beta Version      : 1.1.6.2RC1 
+
+AP800#ping -c 4 192.168.1.2                                                                                                                                                                                       
+PING 192.168.1.2 (192.168.1.2): 56 data bytes                                                                                                                                                                     
+64 bytes from 192.168.1.2: seq=0 ttl=64 time=0.306 ms                                                                                                                                                             
+64 bytes from 192.168.1.2: seq=1 ttl=64 time=0.276 ms                                                                                                                                                             
+64 bytes from 192.168.1.2: seq=2 ttl=64 time=0.274 ms                                                                                                                                                             
+64 bytes from 192.168.1.2: seq=3 ttl=64 time=0.275 ms                                                                                                                                                             
+                                                                                                                                                                                                                  
+--- 192.168.1.2 ping statistics ---                                                                                                                                                                               
+4 packets transmitted, 4 packets received, 0% packet loss                                                                                                                                                         
+round-trip min/avg/max = 0.274/0.282/0.306 ms  
+
+AP800#tr069_client                                                                                                                                                                                                
+TR069 CLIENT TASK RUN!                                                                                                                                                                                            
+## HTTPD: TCP-socket could not bind socket.                                                                                                                                                                       
+Segmentation fault
+
+AP800#exit                                                                                                                                                                                                        
+process '/sbin/getty 115200 ttyS1' (pid 1739) exited. Scheduling for restart.
+
+AP800#reboot                                                                                                                                                                                                      
+The system is going down NOW!                                                                                                                                                                                     
+Sending SIGKILL to all processes                                                                                                                                                                                  
+Requesting system reboot                                                                                                                                                                                          
+Restarting system.
